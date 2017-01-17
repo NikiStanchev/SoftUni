@@ -1,0 +1,71 @@
+// all the products that exist
+enum Products:String{
+    case Paprika = "paprika"
+    case Tomato = "tomato"
+    case Salami = "salami"
+    case Ham = "ham"
+    case Egg = "egg"
+    case Potato = "potato"
+    case Mushrooms = "mushrooms"
+}
+
+// the products in recepts
+struct Recept{
+    var products = [String:Int]()
+}
+
+// the products that we have
+struct MyProducts{
+    var products = [String:Int]()
+}
+
+// the recepts that we have
+let myRecept = Recept(products: [Products.Paprika.rawValue: 50, Products.Tomato.rawValue:20, Products.Salami.rawValue: 50, Products.Ham.rawValue:20])
+
+let mySecondRecept = Recept(products: [Products.Potato.rawValue: 50, Products.Tomato.rawValue:20, Products.Salami.rawValue: 50, Products.Ham.rawValue:20])
+
+let myThirdRecept = Recept(products: [Products.Egg.rawValue: 50, Products.Tomato.rawValue:20, Products.Salami.rawValue: 50, Products.Ham.rawValue:20])
+
+// for task 2, all products at home
+let myProductsAtHome = MyProducts(products: [Products.Egg.rawValue: 50, Products.Tomato.rawValue:20, Products.Salami.rawValue: 50, Products.Ham.rawValue:20])
+
+var myRecepts = [Recept]()
+myRecepts.append(myRecept)
+myRecepts.append(mySecondRecept)
+myRecepts.append(myThirdRecept)
+
+
+func returnRecept(arg:String) -> [Recept]{
+    // array with the recepts that we can make with the product arg
+    var returnRecepts = [Recept]()
+    var count = 0 // this count how much recepts we have
+    
+    // we check for every single recept in the array
+    for i in myRecepts{
+        for (index) in i.products.keys{
+            if index == arg{
+                returnRecepts.append(i)
+            }
+        }
+        count += 1
+    }
+    return returnRecepts
+}
+
+// its not finished
+func checkProducts(product:String){
+    var receptsToCheck = returnRecept(arg:product)
+    var productsWeNeed = [String:Int]()
+
+    //receptsToCheck.count give us array length and then we check for every recept that we have
+    for i in 0...receptsToCheck.count{
+        //hier we check for every recept if every key is in myProductsAtHome and in the velue is not less. If not make allProductsAvailable = false
+        //if we dont have the product, we put it in the array productsWeNeed
+        //if we have it, but not all the value, we put it with the diference 
+    }
+}
+
+
+//print(returnRecept(arg:"egg"))
+
+//print(checkProducts(product:"tomato"))
