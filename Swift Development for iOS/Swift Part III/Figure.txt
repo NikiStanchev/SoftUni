@@ -1,0 +1,249 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+import Foundation
+
+class Figure
+{
+    
+    var numberOfSides: Double
+    
+    init(numberOfSides:Double)
+    {
+        self.numberOfSides = numberOfSides
+    }
+    
+    // functions who have to be overridet for every type of figure
+    func perimeter() ->Double
+    {
+        fatalError("Not Implemented")
+    }
+    
+    func area() ->Double
+    {
+        fatalError("Not Implemented")
+    }
+}
+
+
+
+class Triangle: Figure
+{
+    var sideA: Double!
+    var sideB: Double!
+    var sideC: Double!
+    
+    init(sideA: Double, sideB: Double, sideC: Double)
+    {
+        super.init(numberOfSides:3)
+        self.sideA = sideA
+        self.sideB = sideB
+        self.sideC = sideC
+        
+    }
+    
+    override func perimeter() -> Double
+    {
+        let result = Triangle.perimeter(sideA: self.sideA, sideB: self.sideB, sideC: self.sideC)
+        return result
+    }
+    
+    class func perimeter(sideA: Double, sideB: Double, sideC: Double) -> Double
+    {
+        var result = sideA
+        result += sideB
+        result += sideC
+        return result
+    }
+    
+    override func area() ->Double
+    {
+        
+        return Triangle.area(sideA: self.sideA, sideB: self.sideB, sideC: self.sideC)
+    }
+    
+    class func area(sideA: Double, sideB: Double, sideC: Double) -> Double
+    {
+        let result = Triangle.perimeter(sideA:sideA, sideB:sideB, sideC:sideC) / 2
+        return result
+    }
+}
+
+
+class Quadrangle: Figure
+{
+    var sideA: Double!
+    var sideB: Double!
+    var sideC: Double!
+    var sideD: Double!
+    var diagonal: Double!
+    
+    init(sideA: Double, sideB: Double, sideC: Double, sideD: Double, diagonal: Double)
+    {
+        super.init(numberOfSides:4)
+        self.sideA = sideA
+        self.sideB = sideB
+        self.sideC = sideC
+        self.sideD = sideD
+        self.diagonal = diagonal
+    }
+    
+    init(sideA: Double, sideB: Double, sideC: Double, sideD: Double)
+    {
+        super.init(numberOfSides:4)
+        self.sideA = sideA
+        self.sideB = sideB
+        self.sideC = sideC
+        self.sideD = sideD
+    }
+    
+    override func perimeter() -> Double
+    {
+        let result = Quadrangle.perimeter(sideA: self.sideA, sideB: self.sideB, sideC: self.sideC, sideD: self.sideD)
+        return result
+    }
+    
+    class func perimeter(sideA: Double, sideB: Double, sideC: Double, sideD: Double) -> Double
+    {
+        var result = sideA
+        result += sideB
+        result += sideC
+        result += sideD
+        return result
+    }
+    
+    override func area() ->Double
+    {
+        fatalError("Not Implemented")
+    }
+}
+
+
+class Square: Quadrangle
+{
+    let side: Double!
+    
+    // constructor without diagonal because for a square we have to give only one side
+    init(side: Double)
+    {
+        self.side = side
+        super.init(sideA: side, sideB: side, sideC: side, sideD: side)
+    }
+    
+    // return the diagonal value of the square
+    func diagonal() -> Double
+    {
+        let result = (side * side) * 2
+        return sqrt(result)
+    }
+
+    override func area() -> Double {
+        return Square.area(side:self.side)
+    }
+    
+    class func area(side:Double) -> Double {
+        return side * side
+    }
+}
+
+
+class Rectangle: Quadrangle
+{
+    
+    init(sideA:Double, sideB:Double)
+    {
+        super.init(sideA: sideA, sideB: sideB, sideC: sideA, sideD: sideB)
+    }
+    
+    func diagonal() -> Double
+    {
+        let result = (sideA * sideB) * 2
+        return sqrt(result)
+    }
+    
+    override func area() -> Double {
+        return Rectangle.area(sideA:self.sideA, sideB:self.sideB)
+    }
+    
+    class func area(sideA:Double, sideB:Double) -> Double {
+        return sideA * sideB
+    }
+}
+
+class Rhombus: Quadrangle
+{
+    
+
+    init(sideA:Double, sideB:Double, diagonal:Double)
+    {
+        super.init(sideA: sideA, sideB: sideB, sideC: sideA, sideD: sideB, diagonal: diagonal)
+    }
+    
+    override func area() -> Double {
+        return Rhombus.area(sideA:self.sideA, diagonal:self.diagonal)
+    }
+    
+    class func area(sideA:Double, diagonal:Double) -> Double {
+        return sideA * diagonal
+    }
+}
+
+
+class Trapeze: Quadrangle
+{
+    override func area() -> Double {
+        return Trapeze.area(sideA: self.sideA, sideC: self.sideC, diagonal: self.diagonal)
+    }
+    
+    class func area(sideA:Double, sideC:Double, diagonal:Double) -> Double
+    {
+        return ((sideA + sideC) * diagonal) / 2
+        
+    }
+}
+
+// i extended the class from the homework to a polygon with n numbers of sides
+class Polygon: Figure
+{
+    var side: Double!
+    
+    init(side:Double, numberOfSides: Double)
+    {
+        self.side = side
+        super.init(numberOfSides: numberOfSides)
+    }
+    
+    override func perimeter() ->Double
+    {
+        return Polygon.perimeter(side: self.side, numberOfSides: self.numberOfSides)
+    }
+    
+    class func perimeter(side:Double, numberOfSides: Double) -> Double
+    {
+        return side * numberOfSides
+    }
+    
+    override func area() ->Double
+    {
+        return Polygon.area(side: self.side, numberOfSides: self.numberOfSides)
+    }
+    
+    class func area(side:Double, numberOfSides: Double) -> Double
+    {
+        let cot = Double(cos(M_PI / numberOfSides) / sin(M_PI / numberOfSides))
+        let result = ((numberOfSides * side * side) * cot) / 4
+        return result
+    }
+}
+
+
+var triangle = Triangle(sideA: 3, sideB: 4, sideC: 5)
+var square = Square(side: 6)
+var polygon = Polygon(side: 8, numberOfSides: 5)
+
+
+
+print(triangle.area())
+print(triangle.perimeter())
+print(square.diagonal())
+print(polygon.area())

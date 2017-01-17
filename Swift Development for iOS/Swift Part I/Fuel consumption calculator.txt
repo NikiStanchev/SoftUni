@@ -1,0 +1,42 @@
+var averageFuelConsumation:Double = 0
+var allFueling = [Double]()
+
+//average fuel consumption in liters per 100 km
+func fuelConsumationCalculator(distance: Double, fuel: Double) -> Double
+{
+    let result:Double = (fuel/distance) * 100
+    
+    return result
+}
+
+//adding distance and amount of fuel and calculating the average fuel consumation
+func averageFuelConsumationCalculator(currentDistance: Double, newFuel: Double)
+{
+    var tempFueling:Double = 0
+    let result:Double = fuelConsumationCalculator(distance:currentDistance, fuel:newFuel)
+    allFueling.append(result)
+    
+    for fueling in allFueling{
+        tempFueling = tempFueling + fueling
+    }
+    
+    averageFuelConsumation = tempFueling / Double(allFueling.count)
+
+}
+
+func convertingLpkmToMgp(consumationInLiter: Double) -> Double
+{
+    let gallon:Double = 3.78541178
+    let mile:Double = 1.609344
+    let result = consumationInLiter / gallon / mile
+    
+    return result   
+}
+
+
+func averagePricePerKilometer(fuelPrice: Double) -> Double
+{
+    let pricePerKilometer:Double = fuelPrice / (100 / averageFuelConsumation) 
+    
+    return pricePerKilometer
+}

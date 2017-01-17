@@ -1,0 +1,98 @@
+struct Player {
+    var onField: Int = 0
+    let name:String
+
+    init(playerName: String) {
+    name = playerName
+  }
+  
+    init(playerName: String, playerField: Int) {
+    name = playerName
+    onField = playerField
+  }
+}
+
+// the field is saved in one dimensional array, and every index from the array is a new place on the field 
+let field = ["START", "EMPTY", "LADDER BEGINN", "SNAKE TAIL", "EMPTY","SNAKE TAIL",
+             "SNAKE HEAD", "EMPTY", "EMPTY", "EMPTY", "SNAKE TAIL", "LADDER BEGINN",
+             "EMPTY", "EMPTY", "LADDER BEGINN", "EMPTY", "LADDER END", "SNAKE TAIL",
+             "EMPTY", "EMPTY", "SNAKE HEAD", "EMPTY", "SNAKE HEAD", "EMPTY",
+             "EMPTY", "EMPTY", "LADDER BEGINN", "EMPTY", "LADDER END", "EMPTY", 
+             "EMPTY", "EMPTY", "EMPTY", "EMPTY", "EMPTY", "LADDER END",
+             "EMPTY", "EMPTY", "LADDER END", "SNAKE HEAD", "EMPTY", "EXIT"]
+
+
+// return a random value from 1 to 6
+func dice() -> Int
+{
+    let result = Int(arc4random_uniform(6) + 1)
+    return result
+}
+
+func printMovement(_ player: inout Player){
+    
+    let output = String(format:"Player %@ is on field %d", player.name, player.onField)
+    print(output)
+}
+
+func play(_ player: inout Player){
+    
+    var win = false // if win == true the game is over
+    var count = 1 // count players movement
+    
+    print("Player \(player.name) begin on field \(field[player.onField])") 
+    
+    while(win == false){
+        let diceRoll = dice()
+        player.onField += diceRoll
+        
+        if(player.onField > 41){ // if the player trow more then he need to move to the last position he dont move
+            player.onField -= diceRoll
+        }
+        print("Player \(player.name) trow \(diceRoll)")
+        print("Player \(player.name) in on \(field[player.onField]) field on his \(count) move ")
+        
+        //ladder
+        if(player.onField == 2){
+           player.onField = 16
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        if(player.onField == 11){
+           player.onField = 35
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        if(player.onField == 14){
+           player.onField = 28
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        if(player.onField == 26){
+           player.onField = 38
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        //snake 
+        if(player.onField == 6){
+           player.onField = 5
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        if(player.onField == 22){
+           player.onField = 10
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        if(player.onField == 20){
+           player.onField = 3
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        if(player.onField == 39){
+           player.onField = 17
+           print("Player \(player.name) moved to the field \(field[player.onField])")
+        }
+        count += 1
+        if(player.onField == 41){ // the player have to trow the exact value of the dice
+            win = true
+            print("Player \(player.name) won!")
+        }
+    }
+}
+
+//var playerOne = Player(playerName: "Pesho")
+//play(&playerOne)

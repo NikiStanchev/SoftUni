@@ -1,0 +1,105 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+
+var root = Dictionary<String,Any>()
+var news = Dictionary<String,Any>()
+
+var arr = [root, news]
+
+var item = "asda1234sdgs114213"
+
+var item0: [String:String] = ["postLink":"https:Wphyreapp.com",
+                              "id":"43wfawrasdasdfafsdf",
+                              "title":"News Item 1",
+                              "createdAt":"2016-10-06"]
+
+var item1: [String:String] = ["postLink":"https:Wphyreapp.com",
+                              "id":"43wfawrasdasdfafsdf",
+                              "title":"News Item 1",
+                              "createdAt":"2016-10-06"]
+
+var modified = [item0, item1]
+var deleted = [item]
+
+news.updateValue(deleted, forKey: "deleted")
+news.updateValue(modified, forKey: "modified")
+
+root.updateValue(news, forKey: "news")
+
+var count = 0
+
+
+
+func whiteSpace(_ n:Int) -> String
+{
+    var space = ""
+    for _ in 1...n{
+        space += " "
+    }
+    return space
+}
+
+func convertor<T>(_ x:T)
+{
+    if count == 0
+    {
+        print("Output")
+        print("{")
+    }
+    count += 1
+    
+    if x is String
+    {
+        print(String(format: "%@\"%@\"",whiteSpace(count), x as! CVarArg))
+    }
+    
+    if x is Array<Any>
+    {
+        for element in x as! Array<Any>
+        {
+            convertor(element)
+        }
+    }
+    
+    if x is Dictionary<String, Array<Any>>
+    {
+        for (key, value) in x as! Dictionary<String, Array<Any>>
+        {
+            print(String(format:"%@\"%@\":[", whiteSpace(count), key))
+            convertor(value)
+            print(String(format:"%@]", whiteSpace(count)))
+        }
+    }
+    
+    if x is Dictionary<String,Dictionary<String, Any>>
+    {
+        for (key, value) in x as! Dictionary<String, Any>
+        {
+            let outputString = String(format:"%@\"%@\":[", whiteSpace(count), key)
+            print(outputString)
+            convertor(value)
+            print(String(format:"%@]", whiteSpace(count)))
+        }
+    }
+    
+    if x is Dictionary<String, String>
+    {
+        print(String(format:"%@{", whiteSpace(count)))
+        for (key, value) in x as! Dictionary<String, String>
+        {
+            print(String(format: "%@\"%@\":\"%@\"",whiteSpace(count), key, value))
+        }
+        print(String(format:"%@}", whiteSpace(count)))
+    }
+    count -= 1
+    if count == 0
+    {
+        print("}")
+    }
+}
+
+
+convertor(root)
+

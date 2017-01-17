@@ -1,0 +1,112 @@
+enum Operation{
+    case Addition
+    case Multiplication 
+    case Division
+    case Subtraction
+}
+
+enum Notation{
+    case Binary
+    case Ternary
+    case Octal
+    case Decimal
+    case Hexadecimal
+}
+
+var firstNumber = ("1001", Notation.Binary)
+var secondNumber = ("6071", Notation.Octal)
+var thirdNumber = ("ff0d", Notation.Hexadecimal)
+
+// here we save all the numbers
+var numbers = [(num:String,nota:Notation)]()
+var numbersTwo = [("12", Notation.Decimal),("3", Notation.Decimal),("2", Notation.Decimal)]
+
+numbers.append(firstNumber)
+numbers.append(secondNumber)
+numbers.append(thirdNumber)
+
+
+// this func return the decimal value of every number 
+func decimalValue(number: String, notation: Notation) -> Int{
+    var result = 0
+    let numberNotation = notation
+    
+    switch numberNotation
+    {
+        case .Binary:
+            let binaryNumber = number
+            result = Int(binaryNumber, radix: 2)!
+            return result
+        case .Ternary:
+            let ternaryNumber = number
+            result = Int(ternaryNumber, radix: 3)!
+            return result
+        case .Octal:
+            let octalNumber = number
+            result = Int(octalNumber, radix: 8)!
+            return result
+        case .Hexadecimal:
+            let hexadecimalNumber = number
+            result = Int(hexadecimalNumber, radix: 16)!
+            return result
+        default:
+            result = (number as NSString).integerValue
+            return result
+    }
+}
+
+func calculator(forNumbers:[(num:String,nota:Notation)], inSystem: Notation, oper: Operation) -> String{
+    
+    var result = 0
+    let numberNotation = inSystem
+    let operation = oper
+    var returnResult:String
+
+    switch operation
+    {
+        case .Subtraction:
+            result = 2 * decimalValue(number:forNumbers[0].num,notation:forNumbers[0].nota)
+            for n in forNumbers{
+                result -= decimalValue(number:n.num, notation:n.nota)
+            }
+        case .Multiplication:
+            result = 1
+            for n in forNumbers{
+                result *= decimalValue(number:n.num, notation:n.nota)
+            }
+        case .Division:
+            var tempResult: Double = Double(decimalValue(number:forNumbers[0].num,notation:forNumbers[0].nota))*Double(decimalValue(number:forNumbers[0].num,notation:forNumbers[0].nota))
+            // var resultt: Double = Double(3) / Double(6)
+            // print(resultt)
+            for n in forNumbers{
+                tempResult /= Double(decimalValue(number:n.num, notation:n.nota))
+            }
+            result = Int(tempResult)
+        default:
+            for n in forNumbers{
+                result += decimalValue(number:n.num, notation:n.nota)
+            }
+    }
+    
+    
+    switch numberNotation
+    {
+        case .Binary:
+            returnResult = String(result, radix: 2)
+        case .Ternary:
+            returnResult = String(result, radix: 3)
+        case .Octal:
+            returnResult = String(result, radix: 8)
+        case .Hexadecimal:
+            returnResult = String(result, radix: 16)
+        default:
+            returnResult = String(result)
+    }
+    return returnResult
+}
+
+
+print(calculator(forNumbers:numbersTwo, inSystem: .Decimal, oper: .Division))
+print(calculator(forNumbers:numbers, inSystem: .Decimal, oper: .Addition))
+
+
