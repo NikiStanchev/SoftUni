@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\04. Numbers in Reversed Order\bin\Debug\_04.Numbers_in_Reversed_Order.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\04. Numbers in Reversed Order\bin\Debug\_04.Numbers_in_Reversed_Order.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\04. Numbers in Reversed Order\bin\Debug\_04.Numbers_in_Reversed_Order.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\04. Numbers in Reversed Order\obj\Debug\_04.Numbers_in_Reversed_Order.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\04. Numbers in Reversed Order\obj\Debug\_04.Numbers_in_Reversed_Order.pdb

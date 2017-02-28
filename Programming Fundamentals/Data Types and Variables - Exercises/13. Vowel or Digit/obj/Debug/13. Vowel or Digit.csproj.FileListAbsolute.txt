@@ -1,0 +1,5 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\13. Vowel or Digit\bin\Debug\_13.Vowel_or_Digit.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\13. Vowel or Digit\bin\Debug\_13.Vowel_or_Digit.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\13. Vowel or Digit\bin\Debug\_13.Vowel_or_Digit.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\13. Vowel or Digit\obj\Debug\_13.Vowel_or_Digit.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\13. Vowel or Digit\obj\Debug\_13.Vowel_or_Digit.pdb

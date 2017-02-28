@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\06. Strings And Objects\bin\Debug\_06.Strings_And_Objects.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\06. Strings And Objects\bin\Debug\_06.Strings_And_Objects.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\06. Strings And Objects\bin\Debug\_06.Strings_And_Objects.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\06. Strings And Objects\obj\Debug\06. Strings And Objects.csprojResolveAssemblyReference.cache
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\06. Strings And Objects\obj\Debug\_06.Strings_And_Objects.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\06. Strings And Objects\obj\Debug\_06.Strings_And_Objects.pdb

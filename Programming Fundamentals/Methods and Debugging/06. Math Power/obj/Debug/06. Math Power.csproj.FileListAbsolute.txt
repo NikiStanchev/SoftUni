@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\06. Math Power\bin\Debug\_06.Math_Power.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\06. Math Power\bin\Debug\_06.Math_Power.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\06. Math Power\bin\Debug\_06.Math_Power.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\06. Math Power\obj\Debug\_06.Math_Power.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\06. Math Power\obj\Debug\_06.Math_Power.pdb

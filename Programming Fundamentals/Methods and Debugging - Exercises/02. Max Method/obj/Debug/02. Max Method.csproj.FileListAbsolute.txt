@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\02. Max Method\bin\Debug\_02.Max_Method.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\02. Max Method\bin\Debug\_02.Max_Method.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\02. Max Method\bin\Debug\_02.Max_Method.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\02. Max Method\obj\Debug\_02.Max_Method.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\02. Max Method\obj\Debug\_02.Max_Method.pdb

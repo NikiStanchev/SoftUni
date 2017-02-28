@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\07. Primes in Given Range\bin\Debug\_07.Primes_in_Given_Range.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\07. Primes in Given Range\bin\Debug\_07.Primes_in_Given_Range.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\07. Primes in Given Range\bin\Debug\_07.Primes_in_Given_Range.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\07. Primes in Given Range\obj\Debug\_07.Primes_in_Given_Range.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\07. Primes in Given Range\obj\Debug\_07.Primes_in_Given_Range.pdb

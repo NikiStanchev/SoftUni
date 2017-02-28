@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\09. Longer Line\bin\Debug\_09.Longer_Line.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\09. Longer Line\bin\Debug\_09.Longer_Line.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\09. Longer Line\bin\Debug\_09.Longer_Line.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\09. Longer Line\obj\Debug\09. Longer Line.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\09. Longer Line\obj\Debug\_09.Longer_Line.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\09. Longer Line\obj\Debug\_09.Longer_Line.pdb

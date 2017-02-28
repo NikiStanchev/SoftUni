@@ -1,0 +1,6 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\07. Greeting\bin\Debug\_07.Greeting.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\07. Greeting\bin\Debug\_07.Greeting.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\07. Greeting\bin\Debug\_07.Greeting.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\07. Greeting\obj\Debug\07. Greeting.csprojResolveAssemblyReference.cache
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\07. Greeting\obj\Debug\_07.Greeting.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\07. Greeting\obj\Debug\_07.Greeting.pdb

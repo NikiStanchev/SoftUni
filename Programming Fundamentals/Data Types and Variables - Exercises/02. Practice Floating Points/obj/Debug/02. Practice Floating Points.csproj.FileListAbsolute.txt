@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\02. Practice Floating Points\bin\Debug\_02.Practice_Floating_Points.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\02. Practice Floating Points\bin\Debug\_02.Practice_Floating_Points.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\02. Practice Floating Points\bin\Debug\_02.Practice_Floating_Points.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\02. Practice Floating Points\obj\Debug\_02.Practice_Floating_Points.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\02. Practice Floating Points\obj\Debug\_02.Practice_Floating_Points.pdb

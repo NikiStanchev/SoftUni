@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\02. Append Lists\bin\Debug\_02.Append_Lists.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\02. Append Lists\bin\Debug\_02.Append_Lists.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\02. Append Lists\bin\Debug\_02.Append_Lists.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\02. Append Lists\obj\Debug\_02.Append_Lists.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\02. Append Lists\obj\Debug\_02.Append_Lists.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\02. Append Lists\obj\Debug\02. Append Lists.csprojResolveAssemblyReference.cache

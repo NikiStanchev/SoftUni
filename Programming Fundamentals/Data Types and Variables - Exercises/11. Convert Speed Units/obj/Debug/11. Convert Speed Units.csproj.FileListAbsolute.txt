@@ -1,0 +1,6 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\11. Convert Speed Units\bin\Debug\_11.Convert_Speed_Units.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\11. Convert Speed Units\bin\Debug\_11.Convert_Speed_Units.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\11. Convert Speed Units\bin\Debug\_11.Convert_Speed_Units.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\11. Convert Speed Units\obj\Debug\11. Convert Speed Units.csprojResolveAssemblyReference.cache
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\11. Convert Speed Units\obj\Debug\_11.Convert_Speed_Units.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\11. Convert Speed Units\obj\Debug\_11.Convert_Speed_Units.pdb

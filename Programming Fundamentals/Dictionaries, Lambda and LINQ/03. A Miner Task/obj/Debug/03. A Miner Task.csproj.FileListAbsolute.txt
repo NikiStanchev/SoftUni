@@ -1,0 +1,5 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Dictionaries, Lambda and LINQ\03. A Miner Task\bin\Debug\_03.A_Miner_Task.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Dictionaries, Lambda and LINQ\03. A Miner Task\bin\Debug\_03.A_Miner_Task.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Dictionaries, Lambda and LINQ\03. A Miner Task\bin\Debug\_03.A_Miner_Task.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Dictionaries, Lambda and LINQ\03. A Miner Task\obj\Debug\_03.A_Miner_Task.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Dictionaries, Lambda and LINQ\03. A Miner Task\obj\Debug\_03.A_Miner_Task.pdb

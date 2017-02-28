@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\03. Practice Chars And Strings\bin\Debug\_03.Practice_Chars_And_Strings.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\03. Practice Chars And Strings\bin\Debug\_03.Practice_Chars_And_Strings.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\03. Practice Chars And Strings\bin\Debug\_03.Practice_Chars_And_Strings.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\03. Practice Chars And Strings\obj\Debug\_03.Practice_Chars_And_Strings.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\03. Practice Chars And Strings\obj\Debug\_03.Practice_Chars_And_Strings.pdb

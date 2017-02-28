@@ -1,0 +1,5 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\09. Refactor Special Numbers\bin\Debug\_09.Refactor_Special_Numbers.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\09. Refactor Special Numbers\bin\Debug\_09.Refactor_Special_Numbers.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\09. Refactor Special Numbers\bin\Debug\_09.Refactor_Special_Numbers.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\09. Refactor Special Numbers\obj\Debug\_09.Refactor_Special_Numbers.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\09. Refactor Special Numbers\obj\Debug\_09.Refactor_Special_Numbers.pdb

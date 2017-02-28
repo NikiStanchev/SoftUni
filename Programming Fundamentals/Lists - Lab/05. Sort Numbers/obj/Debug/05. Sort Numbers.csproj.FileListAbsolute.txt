@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\05. Sort Numbers\bin\Debug\_05.Sort_Numbers.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\05. Sort Numbers\bin\Debug\_05.Sort_Numbers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\05. Sort Numbers\bin\Debug\_05.Sort_Numbers.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\05. Sort Numbers\obj\Debug\05. Sort Numbers.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\05. Sort Numbers\obj\Debug\_05.Sort_Numbers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\05. Sort Numbers\obj\Debug\_05.Sort_Numbers.pdb

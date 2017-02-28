@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\07. Count Numbers\bin\Debug\_07.Count_Numbers.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\07. Count Numbers\bin\Debug\_07.Count_Numbers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\07. Count Numbers\bin\Debug\_07.Count_Numbers.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\07. Count Numbers\obj\Debug\07. Count Numbers.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\07. Count Numbers\obj\Debug\_07.Count_Numbers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\07. Count Numbers\obj\Debug\_07.Count_Numbers.pdb

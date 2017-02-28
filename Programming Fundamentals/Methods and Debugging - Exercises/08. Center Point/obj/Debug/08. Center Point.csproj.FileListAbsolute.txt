@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\08. Center Point\bin\Debug\_08.Center_Point.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\08. Center Point\bin\Debug\_08.Center_Point.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\08. Center Point\bin\Debug\_08.Center_Point.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\08. Center Point\obj\Debug\08. Center Point.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\08. Center Point\obj\Debug\_08.Center_Point.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\08. Center Point\obj\Debug\_08.Center_Point.pdb

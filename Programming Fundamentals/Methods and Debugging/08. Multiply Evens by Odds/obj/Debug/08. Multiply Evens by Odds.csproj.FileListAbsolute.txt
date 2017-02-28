@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\08. Multiply Evens by Odds\bin\Debug\_08.Multiply_Evens_by_Odds.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\08. Multiply Evens by Odds\bin\Debug\_08.Multiply_Evens_by_Odds.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\08. Multiply Evens by Odds\bin\Debug\_08.Multiply_Evens_by_Odds.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\08. Multiply Evens by Odds\obj\Debug\_08.Multiply_Evens_by_Odds.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\08. Multiply Evens by Odds\obj\Debug\_08.Multiply_Evens_by_Odds.pdb

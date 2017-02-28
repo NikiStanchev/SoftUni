@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\09. Holidays Between Two Dates\bin\Debug\_09.Holidays_Between_Two_Dates.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\09. Holidays Between Two Dates\bin\Debug\_09.Holidays_Between_Two_Dates.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\09. Holidays Between Two Dates\bin\Debug\_09.Holidays_Between_Two_Dates.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\09. Holidays Between Two Dates\obj\Debug\_09.Holidays_Between_Two_Dates.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\09. Holidays Between Two Dates\obj\Debug\_09.Holidays_Between_Two_Dates.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\09. Holidays Between Two Dates\obj\Debug\09. Holidays Between Two Dates.csprojResolveAssemblyReference.cache

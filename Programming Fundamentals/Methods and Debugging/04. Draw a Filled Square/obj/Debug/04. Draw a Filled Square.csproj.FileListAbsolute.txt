@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\04. Draw a Filled Square\bin\Debug\_04.Draw_a_Filled_Square.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\04. Draw a Filled Square\bin\Debug\_04.Draw_a_Filled_Square.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\04. Draw a Filled Square\bin\Debug\_04.Draw_a_Filled_Square.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\04. Draw a Filled Square\obj\Debug\_04.Draw_a_Filled_Square.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\04. Draw a Filled Square\obj\Debug\_04.Draw_a_Filled_Square.pdb

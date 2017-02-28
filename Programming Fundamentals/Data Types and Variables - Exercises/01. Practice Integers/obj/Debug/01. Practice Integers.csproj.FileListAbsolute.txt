@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\01. Practice Integers\bin\Debug\_01.Practice_Integers.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\01. Practice Integers\bin\Debug\_01.Practice_Integers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\01. Practice Integers\bin\Debug\_01.Practice_Integers.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\01. Practice Integers\obj\Debug\01. Practice Integers.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\01. Practice Integers\obj\Debug\_01.Practice_Integers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\01. Practice Integers\obj\Debug\_01.Practice_Integers.pdb

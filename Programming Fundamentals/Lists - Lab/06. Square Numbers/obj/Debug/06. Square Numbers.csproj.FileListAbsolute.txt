@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\06. Square Numbers\bin\Debug\_06.Square_Numbers.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\06. Square Numbers\bin\Debug\_06.Square_Numbers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\06. Square Numbers\bin\Debug\_06.Square_Numbers.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\06. Square Numbers\obj\Debug\_06.Square_Numbers.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Lists - Lab\06. Square Numbers\obj\Debug\_06.Square_Numbers.pdb

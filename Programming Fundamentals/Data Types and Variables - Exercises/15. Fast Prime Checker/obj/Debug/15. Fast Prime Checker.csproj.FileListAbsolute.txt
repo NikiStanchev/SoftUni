@@ -1,0 +1,5 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\15. Fast Prime Checker\bin\Debug\_15.Fast_Prime_Checker.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\15. Fast Prime Checker\bin\Debug\_15.Fast_Prime_Checker.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\15. Fast Prime Checker\bin\Debug\_15.Fast_Prime_Checker.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\15. Fast Prime Checker\obj\Debug\_15.Fast_Prime_Checker.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\15. Fast Prime Checker\obj\Debug\_15.Fast_Prime_Checker.pdb

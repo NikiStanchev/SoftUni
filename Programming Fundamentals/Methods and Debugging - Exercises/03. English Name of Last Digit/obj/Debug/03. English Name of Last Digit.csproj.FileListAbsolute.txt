@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\03. English Name of Last Digit\bin\Debug\_03.English_Name_of_Last_Digit.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\03. English Name of Last Digit\bin\Debug\_03.English_Name_of_Last_Digit.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\03. English Name of Last Digit\bin\Debug\_03.English_Name_of_Last_Digit.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\03. English Name of Last Digit\obj\Debug\_03.English_Name_of_Last_Digit.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging - Exercises\03. English Name of Last Digit\obj\Debug\_03.English_Name_of_Last_Digit.pdb

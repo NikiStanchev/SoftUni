@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\02. Circle Area (Precision 12)\bin\Debug\_02.Circle_Area__Precision_12_.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\02. Circle Area (Precision 12)\bin\Debug\_02.Circle_Area__Precision_12_.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\02. Circle Area (Precision 12)\bin\Debug\_02.Circle_Area__Precision_12_.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\02. Circle Area (Precision 12)\obj\Debug\_02.Circle_Area__Precision_12_.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\02. Circle Area (Precision 12)\obj\Debug\_02.Circle_Area__Precision_12_.pdb

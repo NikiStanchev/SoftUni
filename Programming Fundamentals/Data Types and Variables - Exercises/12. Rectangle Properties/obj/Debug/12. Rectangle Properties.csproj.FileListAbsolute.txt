@@ -1,0 +1,6 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\12. Rectangle Properties\bin\Debug\_12.Rectangle_Properties.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\12. Rectangle Properties\bin\Debug\_12.Rectangle_Properties.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\12. Rectangle Properties\bin\Debug\_12.Rectangle_Properties.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\12. Rectangle Properties\obj\Debug\12. Rectangle Properties.csprojResolveAssemblyReference.cache
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\12. Rectangle Properties\obj\Debug\_12.Rectangle_Properties.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\12. Rectangle Properties\obj\Debug\_12.Rectangle_Properties.pdb

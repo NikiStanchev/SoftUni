@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\01. Centuries to Minutes\bin\Debug\_01.Centuries_to_Minutes.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\01. Centuries to Minutes\bin\Debug\_01.Centuries_to_Minutes.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\01. Centuries to Minutes\bin\Debug\_01.Centuries_to_Minutes.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\01. Centuries to Minutes\obj\Debug\01. Centuries to Minutes.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\01. Centuries to Minutes\obj\Debug\_01.Centuries_to_Minutes.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\01. Centuries to Minutes\obj\Debug\_01.Centuries_to_Minutes.pdb

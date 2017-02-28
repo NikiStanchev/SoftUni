@@ -1,0 +1,5 @@
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\08. Refactor Volume of Pyramid\bin\Debug\_08.Refactor_Volume_of_Pyramid.exe.config
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\08. Refactor Volume of Pyramid\bin\Debug\_08.Refactor_Volume_of_Pyramid.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\08. Refactor Volume of Pyramid\bin\Debug\_08.Refactor_Volume_of_Pyramid.pdb
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\08. Refactor Volume of Pyramid\obj\Debug\_08.Refactor_Volume_of_Pyramid.exe
+C:\Users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables\08. Refactor Volume of Pyramid\obj\Debug\_08.Refactor_Volume_of_Pyramid.pdb

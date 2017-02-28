@@ -1,0 +1,5 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\03. Printing Triangle\bin\Debug\_03.Printing_Triangle.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\03. Printing Triangle\bin\Debug\_03.Printing_Triangle.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\03. Printing Triangle\bin\Debug\_03.Printing_Triangle.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\03. Printing Triangle\obj\Debug\_03.Printing_Triangle.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\03. Printing Triangle\obj\Debug\_03.Printing_Triangle.pdb

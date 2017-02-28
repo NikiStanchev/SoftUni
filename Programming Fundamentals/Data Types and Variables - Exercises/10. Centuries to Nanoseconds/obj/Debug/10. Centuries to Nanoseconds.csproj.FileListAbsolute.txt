@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\10. Centuries to Nanoseconds\bin\Debug\_10.Centuries_to_Nanoseconds.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\10. Centuries to Nanoseconds\bin\Debug\_10.Centuries_to_Nanoseconds.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\10. Centuries to Nanoseconds\bin\Debug\_10.Centuries_to_Nanoseconds.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\10. Centuries to Nanoseconds\obj\Debug\10. Centuries to Nanoseconds.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\10. Centuries to Nanoseconds\obj\Debug\_10.Centuries_to_Nanoseconds.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Data Types and Variables - Exercises\10. Centuries to Nanoseconds\obj\Debug\_10.Centuries_to_Nanoseconds.pdb

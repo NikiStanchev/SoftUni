@@ -1,0 +1,6 @@
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\1. Blank Receipt\bin\Debug\_1.Blank_Receipt.exe.config
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\1. Blank Receipt\bin\Debug\_1.Blank_Receipt.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\1. Blank Receipt\bin\Debug\_1.Blank_Receipt.pdb
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\1. Blank Receipt\obj\Debug\1. Blank Receipt.csprojResolveAssemblyReference.cache
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\1. Blank Receipt\obj\Debug\_1.Blank_Receipt.exe
+c:\users\nstan\onedrive\documents\visual studio 2015\Projects\Methods and Debugging\1. Blank Receipt\obj\Debug\_1.Blank_Receipt.pdb
