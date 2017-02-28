@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\03. Rage Quit\bin\Debug\_03.Rage_Quit.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\03. Rage Quit\bin\Debug\_03.Rage_Quit.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\03. Rage Quit\bin\Debug\_03.Rage_Quit.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\03. Rage Quit\obj\Debug\03. Rage Quit.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\03. Rage Quit\obj\Debug\_03.Rage_Quit.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\03. Rage Quit\obj\Debug\_03.Rage_Quit.pdb

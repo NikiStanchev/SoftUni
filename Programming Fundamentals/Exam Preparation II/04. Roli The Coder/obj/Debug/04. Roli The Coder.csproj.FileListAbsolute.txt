@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\04. Roli The Coder\bin\Debug\_04.Roli_The_Coder.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\04. Roli The Coder\bin\Debug\_04.Roli_The_Coder.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\04. Roli The Coder\bin\Debug\_04.Roli_The_Coder.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\04. Roli The Coder\obj\Debug\04. Roli The Coder.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\04. Roli The Coder\obj\Debug\_04.Roli_The_Coder.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\04. Roli The Coder\obj\Debug\_04.Roli_The_Coder.pdb

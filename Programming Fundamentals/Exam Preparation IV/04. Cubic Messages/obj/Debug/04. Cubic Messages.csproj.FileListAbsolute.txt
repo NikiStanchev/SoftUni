@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\04. Cubic Messages\bin\Debug\_04.Cubic_Messages.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\04. Cubic Messages\bin\Debug\_04.Cubic_Messages.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\04. Cubic Messages\bin\Debug\_04.Cubic_Messages.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\04. Cubic Messages\obj\Debug\04. Cubic Messages.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\04. Cubic Messages\obj\Debug\_04.Cubic_Messages.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\04. Cubic Messages\obj\Debug\_04.Cubic_Messages.pdb

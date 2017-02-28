@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\01. Sino The Walker\bin\Debug\_01.Sino_The_Walker.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\01. Sino The Walker\bin\Debug\_01.Sino_The_Walker.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\01. Sino The Walker\bin\Debug\_01.Sino_The_Walker.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\01. Sino The Walker\obj\Debug\01. Sino The Walker.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\01. Sino The Walker\obj\Debug\_01.Sino_The_Walker.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\01. Sino The Walker\obj\Debug\_01.Sino_The_Walker.pdb

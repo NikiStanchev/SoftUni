@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\03. Nether Realms\bin\Debug\_03.Nether_Realms.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\03. Nether Realms\obj\Debug\03. Nether Realms.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\03. Nether Realms\bin\Debug\_03.Nether_Realms.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\03. Nether Realms\bin\Debug\_03.Nether_Realms.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\03. Nether Realms\obj\Debug\_03.Nether_Realms.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation II\03. Nether Realms\obj\Debug\_03.Nether_Realms.pdb

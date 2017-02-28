@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\02. Array Manipulator\bin\Debug\_02.Array_Manipulator.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\02. Array Manipulator\bin\Debug\_02.Array_Manipulator.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\02. Array Manipulator\bin\Debug\_02.Array_Manipulator.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\02. Array Manipulator\obj\Debug\02. Array Manipulator.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\02. Array Manipulator\obj\Debug\_02.Array_Manipulator.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation IV\02. Array Manipulator\obj\Debug\_02.Array_Manipulator.pdb

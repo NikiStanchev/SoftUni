@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\02. SoftUni Karaoke\bin\Debug\_02.SoftUni_Karaoke.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\02. SoftUni Karaoke\bin\Debug\_02.SoftUni_Karaoke.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\02. SoftUni Karaoke\bin\Debug\_02.SoftUni_Karaoke.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\02. SoftUni Karaoke\obj\Debug\02. SoftUni Karaoke.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\02. SoftUni Karaoke\obj\Debug\_02.SoftUni_Karaoke.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\02. SoftUni Karaoke\obj\Debug\_02.SoftUni_Karaoke.pdb

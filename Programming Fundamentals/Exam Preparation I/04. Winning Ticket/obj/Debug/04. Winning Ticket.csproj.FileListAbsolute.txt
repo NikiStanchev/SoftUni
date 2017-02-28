@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\04. Winning Ticket\bin\Debug\_04.Winning_Ticket.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\04. Winning Ticket\bin\Debug\_04.Winning_Ticket.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\04. Winning Ticket\bin\Debug\_04.Winning_Ticket.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\04. Winning Ticket\obj\Debug\04. Winning Ticket.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\04. Winning Ticket\obj\Debug\_04.Winning_Ticket.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation I\04. Winning Ticket\obj\Debug\_04.Winning_Ticket.pdb

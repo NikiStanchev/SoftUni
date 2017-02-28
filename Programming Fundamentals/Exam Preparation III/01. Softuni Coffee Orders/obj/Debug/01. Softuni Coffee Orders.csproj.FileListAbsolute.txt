@@ -1,0 +1,6 @@
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\01. Softuni Coffee Orders\bin\Debug\_01.Softuni_Coffee_Orders.exe.config
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\01. Softuni Coffee Orders\bin\Debug\_01.Softuni_Coffee_Orders.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\01. Softuni Coffee Orders\bin\Debug\_01.Softuni_Coffee_Orders.pdb
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\01. Softuni Coffee Orders\obj\Debug\01. Softuni Coffee Orders.csprojResolveAssemblyReference.cache
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\01. Softuni Coffee Orders\obj\Debug\_01.Softuni_Coffee_Orders.exe
+c:\users\nstan\documents\visual studio 2015\Projects\Exam Preparation III\01. Softuni Coffee Orders\obj\Debug\_01.Softuni_Coffee_Orders.pdb
