@@ -1,0 +1,11 @@
+body{
+    background: #EEE;
+    font-size: 24pt;
+    line-height: 1.5em;
+}
+
+.special{
+    background:#CCC;
+    border-radius: 5px;
+    border: 1px solid #AAA;
+}
