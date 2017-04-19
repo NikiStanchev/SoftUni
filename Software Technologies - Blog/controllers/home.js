@@ -1,5 +1,10 @@
+const Article = require('mongoose').model('Article');
+
 module.exports = {
   index: (req, res) => {
-      res.render('home/index');
+
+      Article.find({}).limit(6).then(articles =>{
+          res.render('home/index', {articles});
+      });
   }
 };
