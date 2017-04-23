@@ -1,5 +1,6 @@
 //CRUD on Article
 const Article = require('mongoose').model('Article');
+const Role = require('mongoose').model('Role');
 
 function validateArticle(articleArgs, req) {
     let errorMsg = '';
@@ -59,11 +60,25 @@ module.exports = {
 
         Article.findById(id).then(article => {
 
-            if(req.user === undefined || !req.user.isAuthor(article)){
-                res.render('home/index', {error:'You cannot edit this article'});
-                return;
-            }
-            res.render('article/edit', article);
+            let userRole = req.user.roles;
+            let isAdmin = false;
+
+            Role.findById(userRole).then(role => {
+                if(role.name == 'Admin'){
+                    isAdmin = true;
+                }
+
+                if(req.user === undefined || !req.user.isAuthor(article)){
+
+
+                    if(!isAdmin){
+                        res.render('home/index', {error:'You cannot edit this article'});
+                        return;
+                    }
+
+                }
+                res.render('article/edit', article);
+            });
         })
     },
 
@@ -90,7 +105,25 @@ module.exports = {
         let id = req.params.id;
 
         Article.findById(id).then(article => {
-            res.render('article/delete', article);
+            let userRole = req.user.roles;
+            let isAdmin = false;
+
+            Role.findById(userRole).then(role => {
+                if(role.name == 'Admin'){
+                    isAdmin = true;
+                }
+
+                if(req.user === undefined || !req.user.isAuthor(article)){
+
+
+                    if(!isAdmin){
+                        res.render('home/index', {error:'You cannot delete this article'});
+                        return;
+                    }
+
+                }
+                res.render('article/delete', article);
+            });
         });
     },
 

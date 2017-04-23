@@ -29,6 +29,19 @@ userSchema.method ({
         let id = article.author;
 
         return this.id == id;
+    },
+    isAdmin: function (userRole) {
+        Role.findById(userRole).then(role => {
+            if(role.name == 'Admin'){
+                //return undefined
+
+                return true;
+            }
+            else {
+                //return undefined
+                return false;
+            }
+        });
     }
 });
 
