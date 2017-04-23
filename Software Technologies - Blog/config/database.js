@@ -14,9 +14,9 @@ module.exports = (config) => {
         console.log('MongoDB ready!')
     });
 
-    require('./../models/User');
-    require('./../models/Article');
     require('./../models/Role').initialize();
+    require('./../models/User').initialize();
+    require('./../models/Article');
 };
 
 

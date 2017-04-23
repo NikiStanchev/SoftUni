@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const encryption = require('./../utilities/encryption');
+const Role = mongoose.model('Role');
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
 let userSchema = mongoose.Schema(
@@ -19,12 +20,55 @@ userSchema.method ({
        let isSamePasswordHash = inputPasswordHash === this.passwordHash;
 
        return isSamePasswordHash;
-   }
+   },
+    isAuthor: function (article) {
+        if(!article){
+            return false;
+        }
+
+        let id = article.author;
+
+        return this.id == id;
+    }
 });
 
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
 
+
+
+module.exports.initialize = () => {
+    let email = 'admin@mysite.com';
+
+    User.findOne({email:email}).then(admin => {
+        if(admin){
+           return;
+        }
+        Role.findOne({name:'Admin'}).then(role => {
+
+            if(!role){
+                return;
+            }
+            let adminPassword = 'admin12345';
+            let salt = encryption.generateSalt();
+            let passwordHash = encryption.hashPassword(adminPassword, salt);
+
+            let adminUser = {
+                email: email,
+                fullName: 'Admin',
+                articles: [],
+                roles: [role.id],
+                salt:salt,
+                passwordHash:passwordHash
+            };
+
+            User.create(adminUser).then(user => {
+                role.users.push(user.id);
+                role.save();
+            });
+        })
+    });
+}
 
 

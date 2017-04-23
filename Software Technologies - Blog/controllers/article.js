@@ -49,6 +49,7 @@ module.exports = {
         let id = req.params.id;
 
         Article.findById(id).populate('author').then(article => {
+
             res.render('article/details', article);
         })
     },
@@ -57,6 +58,11 @@ module.exports = {
         let id = req.params.id;
 
         Article.findById(id).then(article => {
+
+            if(req.user === undefined || !req.user.isAuthor(article)){
+                res.render('home/index', {error:'You cannot edit this article'});
+                return;
+            }
             res.render('article/edit', article);
         })
     },
