@@ -58,13 +58,19 @@ module.exports = {
     editGet: (req, res) => {
         let id = req.params.id;
 
+        if(!req.isAuthenticated()){
+            res.render('home/index', {error:'You cannot edit this article'});
+            return;
+        }
+
         Article.findById(id).then(article => {
 
             let userRole = req.user.roles;
             let isAdmin = false;
 
             Role.findById(userRole).then(role => {
-                if(role.name == 'Admin'){
+
+                if(role.name === 'Admin'){
                     isAdmin = true;
                 }
 
@@ -104,12 +110,17 @@ module.exports = {
 
         let id = req.params.id;
 
+        if(!req.isAuthenticated()){
+            res.render('home/index', {error:'You cannot delete this article'});
+            return;
+        }
+
         Article.findById(id).then(article => {
             let userRole = req.user.roles;
             let isAdmin = false;
 
             Role.findById(userRole).then(role => {
-                if(role.name == 'Admin'){
+                if(role.name === 'Admin'){
                     isAdmin = true;
                 }
 
