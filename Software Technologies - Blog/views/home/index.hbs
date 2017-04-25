@@ -1,26 +1,45 @@
 <div class="container body-content">
+    <div class="jumbotron">
     <div class="row">
         {{#each articles}}
             <div class="col-md-6">
                 <article>
                     <header>
-                        <h2>{{this.title}}</h2>
+                        <h2 class="text-primary"><small class="text-muted">Title: </small>{{this.title}}</h2>
                     </header>
 
-                    <p>{{this.content}}
+                    <p>
+                        <small><small class="text-muted">Time: </small>
+                            {{this.time}}
+                        </small>
                     </p>
 
-                    <small class="author">
+                    <p>
+                        <small>
+                            <small class="text-muted">Products: </small>
+                            {{this.products}}
+                        </small>
+                    </p>
+                    <p>
+                        <small>
+                            <small class="text-muted">Recipe: </small>
+                            {{this.content}}
+                        </small>
+                    </p>
+
+                    <p class="text-success">
+                        <small class="text-muted">By: </small>
                         {{this.author.fullName}}
-                    </small>
+                    </p>
 
                     <footer>
                         <div class="pull-right">
-                            <a class="btn btn-default btn-xs" href="/article/details/{{this.id}}">Read more &raquo;</a>
+                            <a class="btn btn-primary btn-xs" href="/article/details/{{this.id}}">Read more &raquo;</a>
                         </div>
                     </footer>
                 </article>
             </div>
         {{/each}}
+    </div>
     </div>
 </div>
