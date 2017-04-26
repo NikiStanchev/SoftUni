@@ -78,7 +78,6 @@ module.exports = {
 
             req.logIn(user, (err) => {
                 if (err) {
-                    console.log(err);
                     res.redirect('/user/login', {error: err.message});
                     return;
                 }
@@ -91,5 +90,14 @@ module.exports = {
     logout: (req, res) => {
         req.logOut();
         res.redirect('/');
+    },
+    detailsGet: (req, res) => {
+        let id = req.params.id;
+
+        User.findById(id).then(user => {
+
+            res.render('user/details', user);
+        })
+
     }
 };
