@@ -100,6 +100,8 @@ module.exports = {
 
         Article.update({_id:id}, {$set:{
             title: articleArguments.title,
+            time: articleArguments.time,
+            products: articleArguments.products,
             content: articleArguments.content
         }}).then(err => {
             res.redirect('/');

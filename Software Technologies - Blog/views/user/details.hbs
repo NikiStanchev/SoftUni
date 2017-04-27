@@ -4,31 +4,19 @@
             <div class="col-md-12">
                 <article>
                     <header class="text-primary">
-                        <h2>{{title}}</h2>
+                        <img class="img-circle" src="http://localhost:3000/images/Reverse-Image-Search-Engines-Apps-And-Its-Uses-2016.jpg" height="51px" width="51px"/>
+                        <h2>{{fullName}}</h2>
                     </header>
 
-                    <small>
-                        <small class="text-muted">The time that you need is: </small>
-                        {{time}}
-                    </small>
-                    <br/>
-                    <p>
-                        <small class="text-muted">You are gonna need: </small>
-                        {{products}}
-                    </p>
-                    <br/>
                     <p>
                         {{content}}
                     </p>
 
                     <small class="text-success">
-                        {{author.fullName}}
+                        {{email}}
                     </small>
-
                     <footer>
                         <div class="pull-right">
-                            <a class="btn btn-success" href="/article/edit/{{id}}">Edit &raquo;</a>
-                            <a class="btn btn-danger" href="/article/delete/{{id}}">Delete &raquo;</a>
                             <a class="btn btn-primary" href="/">Back &raquo;</a>
                         </div>
                     </footer>
