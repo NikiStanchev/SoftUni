@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4584d706-29b1-4d70-9cc6-1b9af163076f" name="Default" comment="" />
+    <list default="true" id="12539e11-0bae-4a05-9df7-0ca3869a23b3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,103 +15,71 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01_InsideVolume.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_InsideVolume.js">
+      <file leaf-file-name="01_SumFirstLast.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_SumFirstLast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_RoadRadar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_RoadRadar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <marker date="1496564140403" expanded="true" signature="33:610" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03_TemplateFormat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_TemplateFormat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04_CookingByNumbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_CookingByNumbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05_ModifyAverage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_ModifyAverage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06_ValidityChecker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_ValidityChecker.js">
+      <file leaf-file-name="02_EvenPositionElements.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_EvenPositionElements.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_TreasureLocator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_TreasureLocator.js">
+      <file leaf-file-name="03_NegativePositiveNumbers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_NegativePositiveNumbers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08_TripLength.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_TripLength.js">
+      <file leaf-file-name="04_FirstAndLastKNumbers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_FirstAndLastKNumbers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_ProcessOddNumbers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_ProcessOddNumbers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07_SmallestTwoNumbers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_SmallestTwoNumbers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_BiggestElement.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_BiggestElement.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09_RadioCrystals.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_RadioCrystals.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_DNAHelix.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_DNAHelix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -129,16 +97,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01_InsideVolume.js" />
-        <option value="$PROJECT_DIR$/02_RoadRadar.js" />
-        <option value="$PROJECT_DIR$/03_TemplateFormat.js" />
-        <option value="$PROJECT_DIR$/04_CookingByNumbers.js" />
-        <option value="$PROJECT_DIR$/05_ModifyAverage.js" />
-        <option value="$PROJECT_DIR$/06_ValidityChecker.js" />
-        <option value="$PROJECT_DIR$/07_TreasureLocator.js" />
-        <option value="$PROJECT_DIR$/08_TripLength.js" />
-        <option value="$PROJECT_DIR$/09_RadioCrystals.js" />
-        <option value="$PROJECT_DIR$/10_DNAHelix.js" />
+        <option value="$PROJECT_DIR$/01_SumFirstLast.js" />
+        <option value="$PROJECT_DIR$/02_EvenPositionElements.js" />
+        <option value="$PROJECT_DIR$/03_NegativePositiveNumbers.js" />
+        <option value="$PROJECT_DIR$/04_FirstAndLastKNumbers.js" />
+        <option value="$PROJECT_DIR$/05_LastKNumbersSequence.js" />
+        <option value="$PROJECT_DIR$/06_ProcessOddNumbers.js" />
+        <option value="$PROJECT_DIR$/07_SmallestTwoNumbers.js" />
+        <option value="$PROJECT_DIR$/08_BiggestElement.js" />
       </list>
     </option>
   </component>
@@ -169,22 +135,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions and Arrow Functions" />
+              <option name="myItemId" value="Lab Arrays and Matrices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions and Arrow Functions" />
+              <option name="myItemId" value="Lab Arrays and Matrices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,9 +158,8 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab Arrays and Matrices" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,20 +173,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.10_DNAHelix.js">
-    <configuration default="false" name="05_ModifyAverage.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="05_ModifyAverage.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.08_BiggestElement.js">
+    <configuration default="false" name="02_EvenPositionElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="02_EvenPositionElements.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="06_ValidityChecker.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06_ValidityChecker.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="03_NegativePositiveNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="03_NegativePositiveNumbers.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="07_TreasureLocator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="07_TreasureLocator.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="06_ProcessOddNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06_ProcessOddNumbers.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="09_RadioCrystals.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="09_RadioCrystals.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="07_SmallestTwoNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="07_SmallestTwoNumbers.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="10_DNAHelix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="10_DNAHelix.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="08_BiggestElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="08_BiggestElement.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -285,19 +250,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.05_ModifyAverage.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.06_ValidityChecker.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.07_TreasureLocator.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.09_RadioCrystals.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.10_DNAHelix.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.02_EvenPositionElements.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.03_NegativePositiveNumbers.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.06_ProcessOddNumbers.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.07_SmallestTwoNumbers.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.08_BiggestElement.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.10_DNAHelix.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.09_RadioCrystals.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.07_TreasureLocator.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.06_ValidityChecker.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.05_ModifyAverage.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.08_BiggestElement.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.07_SmallestTwoNumbers.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.06_ProcessOddNumbers.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.03_NegativePositiveNumbers.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.02_EvenPositionElements.js" />
       </list>
     </recent_temporary>
   </component>
@@ -306,21 +271,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4584d706-29b1-4d70-9cc6-1b9af163076f" name="Default" comment="" />
-      <created>1496561658981</created>
+      <changelist id="12539e11-0bae-4a05-9df7-0ca3869a23b3" name="Default" comment="" />
+      <created>1496684397598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1496561658981</updated>
-      <workItem from="1496561660791" duration="22302000" />
+      <updated>1496684397598</updated>
+      <workItem from="1496684399129" duration="9074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22302000" />
+    <option name="totallyTimeSpent" value="9074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -329,7 +293,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -348,89 +312,71 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_TemplateFormat.js">
+    <entry file="file://$PROJECT_DIR$/01_SumFirstLast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_LastKNumbersSequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_InsideVolume.js">
+    <entry file="file://$PROJECT_DIR$/04_FirstAndLastKNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_RoadRadar.js">
+    <entry file="file://$PROJECT_DIR$/06_ProcessOddNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <marker date="1496564140403" expanded="true" signature="33:610" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_CookingByNumbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_ModifyAverage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_ValidityChecker.js">
+    <entry file="file://$PROJECT_DIR$/02_EvenPositionElements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_TreasureLocator.js">
+    <entry file="file://$PROJECT_DIR$/03_NegativePositiveNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_TripLength.js">
+    <entry file="file://$PROJECT_DIR$/07_SmallestTwoNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_RadioCrystals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_DNAHelix.js">
+    <entry file="file://$PROJECT_DIR$/08_BiggestElement.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
