@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FromJSONToHTMLTable</title>
+    <style>
+        table,th{
+            border: groove;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+        }
+        td,th{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+</div>
+<script>
+    function fromJSONToHTMLTable(text){
+        function htmlEscape(text) {
+            let map = { '"': '&quot;', '&': '&amp;',
+                "'": '&#39;', '<': '&lt;', '>': '&gt;' };
+            return text.replace(/[\"&'<>]/g, ch => map[ch]);
+        }
+
+        let html = '';
+        html += '<table>\n';
+        html += '    <tr><th>name</th><th>score</th></tr>\n';
+
+        let jsonArr = JSON.parse(text);
+
+        for(let i = 0; i < jsonArr.length; i++){
+            html += `    <tr><td>${htmlEscape(jsonArr[i].name)}</td><td>${jsonArr[i].score}</td></tr>\n`;
+        }
+        html += '</table>';
+
+        return html;
+    }
+    window.onload = function(){
+        let container = document.getElementById('wrapper');
+        container.innerHTML = fromJSONToHTMLTable('[{"name":"Pesho & Kiro","score":479},{"name":"Gosho, Maria & Viki","score":205}]');
+    };
+</script>
+</body>
+</html>
