@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f5dc297-5624-4ec5-8976-0c98eda89d0e" name="Default" comment="" />
+    <list default="true" id="57a356a9-6214-4b9c-9f4b-2bddfaccf974" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,38 +15,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="01_SortArray.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_SortArray.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="49" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="13" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02_ArgumentInfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_ArgumentInfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03_FunctionalSum.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_FunctionalSum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04_PersonalBMI.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_PersonalBMI.js">
+      <file leaf-file-name="04_LengthLimit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_LengthLimit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
@@ -55,11 +25,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05_VectorMath.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_VectorMath.js">
+      <file leaf-file-name="05_ExtensibleClass.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_ExtensibleClass.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_SortedList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_SortedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07_InstanceValidation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_InstanceValidation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_ViewModel/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view-model.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_ViewModel/view-model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,6 +80,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -77,11 +88,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01_SortArray.js" />
-        <option value="$PROJECT_DIR$/02_ArgumentInfo.js" />
-        <option value="$PROJECT_DIR$/03_FunctionalSum.js" />
-        <option value="$PROJECT_DIR$/04_PersonalBMI.js" />
-        <option value="$PROJECT_DIR$/05_VectorMath.js" />
+        <option value="$PROJECT_DIR$/01_DataClass.js" />
+        <option value="$PROJECT_DIR$/02_Tickets.js" />
+        <option value="$PROJECT_DIR$/03_Unity.js" />
+        <option value="$PROJECT_DIR$/04_LengthLimit.js" />
+        <option value="$PROJECT_DIR$/05_ExtensibleClass.js" />
+        <option value="$PROJECT_DIR$/06_SortedList.js" />
+        <option value="$PROJECT_DIR$/07_InstanceValidation.js" />
+        <option value="$PROJECT_DIR$/08_ViewModel.js" />
+        <option value="$PROJECT_DIR$/08_ViewModel/index.html" />
+        <option value="$PROJECT_DIR$/08_ViewModel/view-model.js" />
       </list>
     </option>
   </component>
@@ -112,22 +128,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedFunctions" />
+              <option name="myItemId" value="ClassesAndMembers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedFunctions" />
+              <option name="myItemId" value="ClassesAndMembers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,8 +151,10 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LabAdvancedFunctions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,20 +168,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.05_VectorMath.js">
-    <configuration default="false" name="01_SortArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="01_SortArray.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.view-model.js">
+    <configuration default="false" name="03_Unity.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="03_Unity.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="02_ArgumentInfo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="02_ArgumentInfo.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="04_LengthLimit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="04_LengthLimit.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="03_FunctionalSum.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="03_FunctionalSum.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="05_ExtensibleClass.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="05_ExtensibleClass.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="04_PersonalBMI.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="04_PersonalBMI.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="07_InstanceValidation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="07_InstanceValidation.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="05_VectorMath.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="05_VectorMath.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="view-model.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="view-model.js" working-dir="$PROJECT_DIR$/08_ViewModel">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -233,19 +251,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.01_SortArray.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.02_ArgumentInfo.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.03_FunctionalSum.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.04_PersonalBMI.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.05_VectorMath.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.03_Unity.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.04_LengthLimit.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.05_ExtensibleClass.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.07_InstanceValidation.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.view-model.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.05_VectorMath.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.04_PersonalBMI.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.03_FunctionalSum.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.02_ArgumentInfo.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.01_SortArray.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.view-model.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.07_InstanceValidation.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.05_ExtensibleClass.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.04_LengthLimit.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.03_Unity.js" />
       </list>
     </recent_temporary>
   </component>
@@ -254,31 +272,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f5dc297-5624-4ec5-8976-0c98eda89d0e" name="Default" comment="" />
-      <created>1499016765659</created>
+      <changelist id="57a356a9-6214-4b9c-9f4b-2bddfaccf974" name="Default" comment="" />
+      <created>1499882052428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1499016765659</updated>
-      <workItem from="1499016767169" duration="5882000" />
-      <workItem from="1499102255125" duration="137000" />
+      <updated>1499882052428</updated>
+      <workItem from="1499882053871" duration="3644000" />
+      <workItem from="1499964530185" duration="6588000" />
+      <workItem from="1500128382409" duration="3397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6019000" />
+    <option name="totallyTimeSpent" value="13629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -299,7 +318,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_SortArray.js">
+    <entry file="file://$PROJECT_DIR$/04_LengthLimit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_ExtensibleClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_SortedList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -307,63 +342,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_ArgumentInfo.js">
+    <entry file="file://$PROJECT_DIR$/07_InstanceValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_FunctionalSum.js">
+    <entry file="file://$PROJECT_DIR$/08_ViewModel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_ViewModel/view-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_DataClass.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_PersonalBMI.js">
+    <entry file="file://$PROJECT_DIR$/02_Tickets.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_VectorMath.js">
+    <entry file="file://$PROJECT_DIR$/03_Unity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_SortArray.js">
+    <entry file="file://$PROJECT_DIR$/04_LengthLimit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_DataClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Unity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="49" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="13" selection-end-column="49" />
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_ArgumentInfo.js">
+    <entry file="file://$PROJECT_DIR$/02_Tickets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="-63">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_FunctionalSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_PersonalBMI.js">
+    <entry file="file://$PROJECT_DIR$/04_LengthLimit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
@@ -371,10 +430,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_VectorMath.js">
+    <entry file="file://$PROJECT_DIR$/05_ExtensibleClass.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_SortedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_InstanceValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_ViewModel.js" />
+    <entry file="file://$PROJECT_DIR$/08_ViewModel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_ViewModel/view-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
