@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XmlHttpRequest Example</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<label for="username">Username to load: </label><input id="username" type="text">
+<button id="btnLoad" onclick="loadRepos()">Load Repos</button>
+<div id="res"></div>
+<script>
+    function loadRepos() {
+        $('#res').text('Loading...');
+        $('#btnLoad').prop('disabled', true);
+        let username = $('#username').val();
+        let request = {
+            url: `https://api.github.com/users/${username}/repos`,
+            method: "GET",
+            success: display,
+            error: onError,
+            complete: () => $('#btnLoad').prop('disabled', false)
+        };
+        $.ajax(request);
+
+        function onError(err) {
+            $('#res').text(`Error ` + JSON.stringify(err.statusText));
+
+        }
+        
+        function display(repos) {
+            let output = $('#res');
+            let list = $('<ul>');
+            list.attr('id', 'repos');
+            for(let repo of repos){
+                $(`<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`).appendTo(list);
+            }
+            output.html(list);
+        }
+    }
+</script>
+</body>
+</html>

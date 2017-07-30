@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XmlHttpRequest Example</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<button onclick="loadRepos()">Load Repos</button>
+<div id="res"></div>
+<script>
+    function loadRepos() {
+
+        let request = {
+            url: "https://api.github.com/users/viktorpts/repos",
+            method: "GET",
+            success: display,
+            error: (e) => console.log(`Error ` + e)
+        };
+
+
+        $.ajax(request);
+        //$.get("https://api.github.com/users/viktorpts/repos").then(display);
+
+        /*
+        let req = new XMLHttpRequest();
+        req.addEventListener('load', function () {
+            if(req.status === 404){
+                document.getElementById('res').textContent = 'Error - not found';
+                return;
+            }
+            let repos = JSON.parse(req.responseText);
+            display(repos);
+
+        });
+        */
+        req.open("GET", "https://api.github.com/users/viktorpts/repos", true);
+        req.send();
+        
+        function display(repos) {
+            let output = document.getElementById('res');
+            output.innerHTML = '<ul>';
+            for(let repo of repos){
+                output.innerHTML += `<li>${repo.name}</li>`;
+            }
+            output.innerHTML += '</ul>'
+        }
+    }
+</script>
+</body>
+</html>
