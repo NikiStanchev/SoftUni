@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Handlebars</title>
+    <script src="../node_modules/handlebars/dist/handlebars.js"></script>
+
+</head>
+<body>
+<div id="app"></div>
+<script id="contact-template" type="text/x-handlebars-template">
+    <article>
+        <div class="title">{{firstName}} {{lastName}}<button>&#8505;</button></div>
+        <div class="info">
+            <span>&phone; {{phone}}</span>
+            <span>&#9993; {{email}}</span>
+        </div>
+    </article>
+</script>
+
+<script id="list-template" type="text/x-handlebars-template">
+    <ul>
+        {{#each items}}
+        <li>{{name}}: {{price}}</li>
+        {{/each}}
+    </ul>
+</script>
+
+<script id="weather-template" type="text/x-handlebars-template">
+    {{#if sunny}}
+    The sky is clear
+    {{else}}
+    The sky is overcast
+    {{/if}}
+</script>
+
+<script id="navigation-template" type="text/x-handlebars-template">
+    <header>
+        <span>Book Library</span>
+        {{#each links}}
+        <a href="#" id="{{id}}">{{label}}</a>
+        {{/each}}
+    </header>
+</script>
+
+<script>
+    let container = document.getElementById('app');
+    let source = document.getElementById('navigation-template').innerHTML;
+    let template = Handlebars.compile(source);
+
+    let context = {
+        links:[
+            {id: 'viewHome', label: 'Home'},
+            {id: 'viewLogin', label: 'Login'},
+            {id: 'viewRegister', label: 'Register'}
+        ]
+    }
+
+    container.innerHTML =  template(context);
+    /*
+    let context = {
+        sunny:true
+    };
+
+    let source = document.getElementById('weather-template').innerHTML;
+    let template = Handlebars.compile(source);
+
+    container.innerHTML += template(context);
+    */
+    /*
+    let source = document.getElementById('list-template').innerHTML;
+    let template = Handlebars.compile(source);
+
+    let context = {
+        items: [
+            {name:'Tomatoes', price: 1.20},
+            {name:'Potatoes', price: 0.79},
+            {name:'Cucambers', price: 3.20}
+        ]
+    };
+     container.innerHTML = template(context);
+    */
+
+    /*
+     let source = document.getElementById('contact-template').innerHTML;
+     let contacts = [
+     {firstName: 'Ivan', lastName: 'Ivanov', phone: '0888 55 33 22', email: 'i.ivanov@abv.bg'},
+     {firstName: 'Petur', lastName: 'Petrov', phone: '0888 00 33 22', email: 'p.petrov@abv.bg'}
+     ];
+    let template = Handlebars.compile(source);
+    for(let contact of contacts){
+        container.innerHTML += template(contact);
+    }*/
+
+
+</script>
+</body>
+</html>
