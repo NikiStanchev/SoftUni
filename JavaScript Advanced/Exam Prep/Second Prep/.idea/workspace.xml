@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18fda0d1-67bc-479f-b24e-4c60f050162d" name="Default" comment="" />
+    <list default="true" id="d1dd20d5-8330-4e65-aeee-239149e65075" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,43 +15,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="sorted-list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Second Prep/sorted-list.js">
+        <entry file="file://$PROJECT_DIR$/sorted-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="sorted-list-tests.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Second Prep/sorted-list-tests.js">
+        <entry file="file://$PROJECT_DIR$/sorted-list-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="95" selection-end-column="3" />
+              <folding>
+                <element signature="e#267#802#0" expanded="false" />
+                <element signature="e#1276#2267#0" expanded="false" />
+                <element signature="e#2301#2777#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/First Prep/index.html" />
-        <option value="$PROJECT_DIR$/First Prep/01. Summary_HTML Skeleton.html" />
-        <option value="$PROJECT_DIR$/First Prep/app.js" />
-        <option value="$PROJECT_DIR$/Second Prep/sorted-list.js" />
-        <option value="$PROJECT_DIR$/Second Prep/sorted-list-tests.js" />
+        <option value="$PROJECT_DIR$/sorted-list.js" />
+        <option value="$PROJECT_DIR$/sorted-list-tests.js" />
       </list>
     </option>
   </component>
@@ -89,35 +82,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Exam Prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam Prep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exam Prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam Prep" type="462c0819:PsiDirectoryNode" />
+              <item name="Second Prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Second Prep" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS Advanced - Sample Exam - 31 Oct 2016/02_SortedList" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Third Prep" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
   </component>
   <component name="RunDashboard">
@@ -142,7 +128,7 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/Second Prep/sorted-list-tests.js</test-file>
+      <test-file>$PROJECT_DIR$/sorted-list-tests.js</test-file>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -150,38 +136,63 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="18fda0d1-67bc-479f-b24e-4c60f050162d" name="Default" comment="" />
-      <created>1504173533029</created>
+      <changelist id="d1dd20d5-8330-4e65-aeee-239149e65075" name="Default" comment="" />
+      <created>1504192626415</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1504173533029</updated>
-      <workItem from="1504173535674" duration="167000" />
-      <workItem from="1504184856099" duration="6222000" />
-      <workItem from="1504192298922" duration="220000" />
+      <updated>1504192626415</updated>
+      <workItem from="1504192627646" duration="727000" />
+      <workItem from="1504332766353" duration="4968000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2017.08.31 at 17h 14m 27s.xml">
+    <history-entry file="Unnamed - 2017.09.02 at 09h 12m 43s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 09h 13m 07s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 09h 13m 48s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 09h 17m 19s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 09h 29m 13s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 09h 30m 08s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 10h 28m 56s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 10h 29m 04s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 10h 29m 11s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed - 2017.09.02 at 10h 29m 49s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6609000" />
+    <option name="totallyTimeSpent" value="5695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13050398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -202,51 +213,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Second Prep/sorted-list.js">
+    <entry file="file://$PROJECT_DIR$/sorted-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="800">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Second Prep/sorted-list-tests.js">
+    <entry file="file://$PROJECT_DIR$/sorted-list-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#267#802#0" expanded="false" />
+            <element signature="e#1276#2267#0" expanded="false" />
+            <element signature="e#2301#2777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorted-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First Prep/index.html" />
-    <entry file="file://$PROJECT_DIR$/First Prep/index.html" />
-    <entry file="file://$PROJECT_DIR$/First Prep/app.js">
+    <entry file="file://$PROJECT_DIR$/sorted-list-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/First Prep/01. Summary_HTML Skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second Prep/sorted-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second Prep/sorted-list-tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="95" selection-end-column="3" />
+          <folding>
+            <element signature="e#267#802#0" expanded="false" />
+            <element signature="e#1276#2267#0" expanded="false" />
+            <element signature="e#2301#2777#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
