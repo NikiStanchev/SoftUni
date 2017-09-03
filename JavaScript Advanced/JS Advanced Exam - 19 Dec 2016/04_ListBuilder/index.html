@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>List Items: Up / Down</title>
+    <style>button { margin: 3px 0 3px 8px }</style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div id="main"></div>
+<script>
+    function listBuilder(selector) {
+        return {
+            createNewList: function() {
+                let container = $(selector);
+                container.empty();
+                container.append($('<ul>'));
+            },
+            addItem: function (town) {
+                let container = $(selector);
+                let townLi = $('<li>').text(town);
+                let btnUp = $('<button>').text('Up');
+                let btnDown = $('<button>').text('Down');
+//                btnUp.click((targer) => {
+//                    let li = $(event.target).parent();
+//                    li.insertBefore(li.prev());
+//                });
+//                btnDown.click((target) => {
+//                    let li = $(event.target).parent();
+//                    li.insertAfter(li.next());
+//                });
+                btnUp.click(this.moveUp);
+                btnDown.click(this.moveDown);
+                townLi.append(btnUp);
+                townLi.append(btnDown);
+                container.find('ul').append(townLi);
+            },
+            moveUp:function () {
+                let li = $(this).parent();
+                li.insertBefore(li.prev());
+            },
+            moveDown:function () {
+                let li = $(this).parent();
+                li.insertAfter(li.next());
+            }
+
+        }
+    }
+</script>
+<script>
+    $(function() {
+        let builder = listBuilder("#main");
+        builder.createNewList();
+        builder.addItem("Sofia");
+        builder.addItem("Varna");
+        builder.addItem("Sofia <new>");
+        builder.addItem("Pleven");
+    });
+</script>
+</body>
+</html>
