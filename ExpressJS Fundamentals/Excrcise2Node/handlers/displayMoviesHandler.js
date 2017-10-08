@@ -14,8 +14,8 @@ module.exports = (req, res)=>{
             }
             
             let replaceString = '<div class="movie">';
-            for(let movie of db){
-                replaceString += `<img class="moviePoster" src="${decodeURIComponent(movie.moviePoster)}"/>`;
+            for(let movie in db){
+                replaceString += `<a href="/movies/details/${movie}"><img class="moviePoster" src="${decodeURIComponent(db[movie].moviePoster)}"/>`;
             }
             replaceString += '</div>';
 

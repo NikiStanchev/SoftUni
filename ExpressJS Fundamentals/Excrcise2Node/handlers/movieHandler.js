@@ -34,6 +34,8 @@ module.exports = (req, res)=>{
             body = Buffer.concat(body).toString();
             let movieBody = qs.parse(body);
             movieBody.moviePoster = encodeURIComponent(movieBody.moviePoster);
+            movieBody.movieTitle = encodeURIComponent(movieBody.movieTitle);
+            movieBody.movieDescription = encodeURIComponent(movieBody.movieDescription);
 
             let validMovieFlag = true;
 
