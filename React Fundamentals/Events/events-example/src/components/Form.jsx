@@ -6,7 +6,8 @@ class Form extends Component{
 
         this.state = {
             name:'',
-            password:''
+            password:'',
+            make:''
         }
         this.onSubmit = this.onSubmit.bind(this)
         this.onChange = this.onChange.bind(this)
@@ -18,7 +19,6 @@ class Form extends Component{
 
     onSubmit(e){
         e.preventDefault()
-        alert(this.state.name)
     }
 
     render(){
@@ -29,13 +29,18 @@ class Form extends Component{
                     onChange={this.onChange} 
                     name="name"
                     type="text" 
-                    name={this.state.name}/>
+                    value={this.state.name}/>
                 <input 
                     onChange={this.onChange} 
                     name="password"
                     type="password" 
-                    name={this.state.password}/>
-                <input type="submit" value="Submit"/>
+                    value={this.state.password}/>
+
+                <input type="submit" value="Submit"/><br/>
+                <select onChange={this.onChange} name='make' value={this.state.make}>
+                    <option value='volvo'>Volvo</option>
+                    <option value='audi'>Audi</option>
+                </select>
             </form>
         )
     }

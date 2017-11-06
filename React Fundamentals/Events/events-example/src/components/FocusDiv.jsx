@@ -34,6 +34,7 @@ class Focus extends Component{
                 onMouseLeave={this.onMouseLeave}
                 >
                 <p>This is DIV number {this.props.number}</p>
+                {this.props.children}
             </div>
         )
     }
