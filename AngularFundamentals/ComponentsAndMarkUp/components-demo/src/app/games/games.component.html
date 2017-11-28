@@ -1,0 +1,17 @@
+<h1>Games list</h1>
+<p>Pick a game</p>
+<div>LIKES: {{likes}}</div>
+<div>DISLIKES: {{dislikes}}</div>
+<ul>
+    <game *ngFor="let game of games" 
+    [gameProp]="game"
+    (onReacted)="onReacted($event)"></game>
+</ul>
+<p>The sum of two and two and four {{2 + 2 + 4}}</p>
+<div>{{singleGame?.title}}</div>
+<div>{{myDate | date:'shortDate'}}</div>
+<input #phone placeholder="phone number"/>
+<button (click)="callPhone(phone.value)">Call Number</button>
+<button (click)="showContent()">{{buttonContent}}</button>
+<div [class.content]="isSpecial" *ngIf="contentIsShown">Additional Content</div>
+<img [attr.src]="imgUrl" />
