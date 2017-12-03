@@ -1,0 +1,16 @@
+$titleColor: antiquewhite;
+$articleColor:rgb(143, 101, 139);
+
+.container{
+    display: flex;
+    margin-top: 8em;
+
+    .left{
+        background-color: $titleColor;
+    
+    }
+    .right{
+        background-color: $articleColor;
+    }
+}
+
