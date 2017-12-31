@@ -1,0 +1,10 @@
+<div class="row">
+  <h2>Latest Photos</h2>
+  <ul id="thumbnailsList">
+    <li *ngFor="let recipe of recipes | async" class="img">
+      <a [routerLink]="['/recipe', recipe.$key]" >
+        <img src="{{recipe.imageUrl}}" class="tn">
+      </a>
+    </li>
+  </ul>
+</div>
