@@ -21,7 +21,13 @@ export class RecipeService {
    }
 
    getRecipes(): Observable<GalleryRecipe[]>{
-     return this.db.list('uploads');
+     const data = this.db.list('uploads');
+     return data;
    }
+
+   getRecipe(key: string) {
+    return firebase.database().ref('uploads/' + key).once('value')
+    .then((snap) => snap.val());
+  }
 
 }

@@ -14,9 +14,9 @@ export class AuthenticationGuard implements CanActivate{
         this.user = afAuth.authState;
     }
 
-    canActivate(route:ActivatedRouteSnapshot, state:RouterStateSnapshot){
+    canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
         return this.user.map((auth) => {
-            if(!auth){
+            if (!auth) {
                 this.router.navigateByUrl('/login');
                 return false;
             }

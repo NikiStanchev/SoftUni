@@ -2,6 +2,7 @@ import { Component, OnInit, OnChanges } from '@angular/core';
 import { RecipeService } from '../../services/recipe.service';
 import { GalleryRecipe } from '../../models/galleryRecipe.model';
 import { Observable } from 'rxjs/Observable';
+import { forEach } from '@angular/router/src/utils/collection';
 
 
 @Component({
