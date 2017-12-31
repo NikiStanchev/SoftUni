@@ -20,6 +20,7 @@ import { UploadService } from './services/upload.service';
 
 import { appRoutes } from '../routes';
 import { environment } from '../environments/environment.prod';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { environment } from '../environments/environment.prod';
     RecipeDetailsComponent,
     NavbarComponent,
     LoginComponent,
-    UploadComponent
+    UploadComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

@@ -24,7 +24,7 @@ export class UploadService {
       (snapshot) => {
         // upload in progress
         upload.progress = (uploadTask.snapshot.bytesTransferred / uploadTask.snapshot.totalBytes) * 100;
-        console.log(upload.progress);
+        //console.log(upload.progress);
       },
       // 2.) error observer
       (error) => {

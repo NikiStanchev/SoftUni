@@ -22,13 +22,15 @@ export class UploadComponent {
 
   uploadFiles() {
     const filesToUpload = this.files; 
-    const filesIdx = _.range(filesToUpload.length); // Arr of numbers
-    _.each(filesIdx, (idx) => {
-      //console.log(filesToUpload[idx]);
-      this.upload = new Upload(filesToUpload[idx]);
-      this.uploadService.uploadFile(this.upload);
-      this.router.navigate(['gallery']);
 
-    });
+    // const filesIdx = _.range(filesToUpload.length); // Arr of numbers
+    // _.each(filesIdx, (idx) => {
+    //   //console.log(filesToUpload[idx]);
+    //   this.upload = new Upload(filesToUpload[idx]);
+    //   this.uploadService.uploadFile(this.upload);
+    //   //this.router.navigate(['gallery']);
+    // });
+    this.upload = new Upload(filesToUpload[0]);
+    this.uploadService.uploadFile(this.upload);
   }
 }
