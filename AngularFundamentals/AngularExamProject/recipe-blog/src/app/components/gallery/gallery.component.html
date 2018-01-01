@@ -1,10 +1,45 @@
-<div class="row">
-  <h2>Latest Photos</h2>
+<!-- <div class="row">
+    <h2>Latest Recipes</h2>
   <ul id="thumbnailsList">
-    <li *ngFor="let recipe of recipes | async" class="img">
-      <a [routerLink]="['/recipe', recipe.$key]" >
-        <img src="{{recipe.url}}" class="tn">
-      </a>
+    <li *ngFor="let recipe of recipes | async">
+      <div class="tn">
+          <a [routerLink]="['/recipe', recipe.$key]" > 
+            <img src="{{recipe.url}}" class="img">
+            <p>{{recipe.recipeName}}</p>
+          </a>
+      </div>
     </li>
   </ul>
-</div>
+</div> -->
+
+
+
+<!-- <div class="row">
+  <ul id="thumbnailsList">
+      <li *ngFor="let recipe of recipes | async">
+          <div class="col-xs-12 col-sm-4">
+              <div class="tn">
+                  <a [routerLink]="['/recipe', recipe.$key]" > 
+                    <img src="{{recipe.url}}" class="img">
+                    <p>{{recipe.recipeName}}</p>
+                  </a>
+              </div>
+          </div>
+      </li>
+    </ul>
+</div> -->
+
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg" class="img">
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg" class="img">
+      </div>
+      <div class="col-xs-12 col-sm-4">
+          <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg" class="img">
+        </div>
+        
+  </div>

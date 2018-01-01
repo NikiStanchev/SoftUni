@@ -4,18 +4,21 @@ import { GalleryRecipe } from '../models/galleryRecipe.model';
 import { AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
 import { Upload } from '../models/upload.model';
 import * as  firebase from 'firebase';
+import * as _ from 'lodash';
+
+import { Router } from '@angular/router';
 
 @Injectable()
 export class UploadService {
 
   private basePath = '/uploads';
-  private uploads: FirebaseListObservable<GalleryRecipe[]>;
+  //private uploads: FirebaseListObservable<GalleryRecipe[]>;
 
-  constructor(private ngFire: AngularFireModule, private db: AngularFireDatabase) { }
+  constructor(private ngFire: AngularFireModule, private db: AngularFireDatabase, private router:Router) { }
 
   uploadFile(upload: Upload) {
     const storageRef = firebase.storage().ref();
-    const uploadTask = storageRef.child(`${this.basePath}/${upload.file.name}`)
+    const uploadTask = storageRef.child(`${this.basePath}/${upload.recipeName}/${upload.file.name}`)
       .put(upload.file);
 
     uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED,
@@ -36,6 +39,7 @@ export class UploadService {
         upload.url = uploadTask.snapshot.downloadURL;
         upload.name = upload.file.name;
         this.saveFileData(upload);
+        this.router.navigate(['gallery']);
       }
     );
   }

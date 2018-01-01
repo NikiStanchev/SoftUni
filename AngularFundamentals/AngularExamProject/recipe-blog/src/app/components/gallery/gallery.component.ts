@@ -17,6 +17,9 @@ export class GalleryComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     this.recipes = this.recipeService.getRecipes();
+    this.recipes.forEach(r=>{
+      console.log(r)
+    })
   }
 
   ngOnChanges(){

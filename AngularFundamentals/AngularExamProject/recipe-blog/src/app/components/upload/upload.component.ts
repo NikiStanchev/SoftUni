@@ -13,6 +13,9 @@ export class UploadComponent {
 
   files: FileList;
   upload: Upload;
+  recipeName:string;
+  recipeDescription:string;
+  date: string;
 
   constructor(private uploadService: UploadService, private router:Router) { }
 
@@ -23,14 +26,18 @@ export class UploadComponent {
   uploadFiles() {
     const filesToUpload = this.files; 
 
-    // const filesIdx = _.range(filesToUpload.length); // Arr of numbers
-    // _.each(filesIdx, (idx) => {
-    //   //console.log(filesToUpload[idx]);
-    //   this.upload = new Upload(filesToUpload[idx]);
-    //   this.uploadService.uploadFile(this.upload);
-    //   //this.router.navigate(['gallery']);
-    // });
-    this.upload = new Upload(filesToUpload[0]);
-    this.uploadService.uploadFile(this.upload);
+    const filesIdx = _.range(filesToUpload.length); // Arr of numbers
+    _.each(filesIdx, (idx) => {
+      //console.log(filesToUpload[idx]);
+      this.upload = new Upload(filesToUpload[idx]);
+      this.upload.recipeName = this.recipeName;
+      this.upload.recipeDescription = this.recipeDescription;
+      this.date = this.upload.createdOn.toString();
+      this.uploadService.uploadFile(this.upload);
+    });
+
+    // this.upload = new Upload(filesToUpload[0]);
+    // this.upload.recipeName = this.recipeName
+    // this.uploadService.uploadFile(this.upload);
   }
 }
