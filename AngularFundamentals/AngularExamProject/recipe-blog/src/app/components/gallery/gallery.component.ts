@@ -11,19 +11,49 @@ import { forEach } from '@angular/router/src/utils/collection';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit, OnChanges {
-  recipes: Observable<GalleryRecipe[]>;
+  //recipes: Observable<GalleryRecipe[]>;
+  recipeKeys: {};
+  allRecipes: {};
+  recipe: {};
+  recipes:Object[] = [];
 
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
-    this.recipes = this.recipeService.getRecipes();
-    this.recipes.forEach(r=>{
-      console.log(r)
-    })
+    this.loadTheHomePage();
+  
   }
 
   ngOnChanges(){
-    this.recipes = this.recipeService.getRecipes();
+    this.loadTheHomePage();
+  }
+
+  loadTheHomePage(){
+    this.recipeService.getRecipes()
+    .then((r)=>{
+      this.recipeKeys = Object.keys(r);
+      this.allRecipes = r;
+
+      for(let idx in this.recipeKeys){
+        this.recipe = this.allRecipes[this.recipeKeys[idx]];
+        let rId = this.recipeKeys[idx];
+        let imageKey = this.recipe['imageKeys'][0];
+        let name = this.recipe['recipeName'];
+        let date = this.recipe['createdDate'];
+        let author = this.recipe['createdBy'];
+        let obj = {
+          id:rId,
+          recipeName:name,
+          imgUrl:'',
+          createdDate: date,
+          createdBy: author
+        }
+        this.recipeService.getImage(imageKey).then(img=>{
+          obj.imgUrl = img['url'];
+        })
+        this.recipes.push(obj);
+      }
+    });
   }
 
 }

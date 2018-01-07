@@ -3,12 +3,10 @@ export class Upload {
     name: string;
     file: File;
     url: string;
-    progress: number;
-    createdOn: Date = new Date();
-    recipeName: string;
-    recipeDescription: string;
+    //progress: number;
 
     constructor(file: File){
         this.file = file;
+        
     }
 }

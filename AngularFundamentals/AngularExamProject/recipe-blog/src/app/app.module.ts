@@ -22,6 +22,10 @@ import { appRoutes } from '../routes';
 import { environment } from '../environments/environment.prod';
 import { RegisterComponent } from './components/register/register.component';
 
+import { DateFormat } from './core/dateFormat.pipe';
+import { CreatedBy } from './core/createdBy.pipe';
+import { RecipeEditComponent } from './components/recipe-edit/recipe-edit.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +34,10 @@ import { RegisterComponent } from './components/register/register.component';
     NavbarComponent,
     LoginComponent,
     UploadComponent,
-    RegisterComponent
+    RegisterComponent,
+    DateFormat,
+    CreatedBy,
+    RecipeEditComponent
   ],
   imports: [
     BrowserModule,

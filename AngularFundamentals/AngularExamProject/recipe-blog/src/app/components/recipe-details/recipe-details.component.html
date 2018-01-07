@@ -1,5 +1,37 @@
 <div class="row">
   <div class=col-md-12>
-    <img src="{{recipeUrl}}" class="img-container">
+    <div class="recipe-container">
+      <p>{{recipeDate | dateFormat}}</p>
+      <h2>{{recipeName}}</h2>
+      <h4>{{recipeType}}</h4>
+      <img class="recipe-img" src="{{firstImg}}">
+      <p>{{recipeTime}} Hours</p>
+      <p>
+         {{recipeProducts}}
+      </p>
+      <img class="recipe-img" src="{{secondImg}}" alt="">
+      
+      <p>
+        {{recipeDescriptionFirst}}
+      </p>
+      <img class="recipe-img" src="{{thirdImg}}" alt="">
+      <p>
+        {{recipeDescriptionSecond}}
+      </p>
+      <ul *ngFor="let im of recipeImages">
+        <img class="recipe-img" src="{{im}}">
+      </ul>
+      <p>
+        {{recipeDescriptionThird}}
+      </p>
+      <p>Created by:  {{createdBy | createdBy}}</p>
+      <br>
+      <button>LIKE</button>
+      <a [routerLink]="['/recipe-edit', recipeId]" > 
+        EDIT
+      </a>
+      <button (click)="deleteRec()">DELETE</button>
+    </div>
+    <!-- <img src="{{recipeUrl}}" class="img-container"> -->
   </div>
 </div>
