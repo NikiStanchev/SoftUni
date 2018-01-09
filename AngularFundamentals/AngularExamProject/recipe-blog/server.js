@@ -4,7 +4,7 @@ const path = requre('path');
 
 app.use(express.static(__dirname + '/dist'));
 
-app.listen(process.env.PORT || 4200);
+app.listen(process.env.PORT || 8080);
 
 // PathlocationStategie
 
