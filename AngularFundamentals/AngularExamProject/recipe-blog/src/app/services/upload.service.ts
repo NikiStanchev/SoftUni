@@ -15,7 +15,6 @@ export class UploadService {
 
   private imagesPath = '/images';
   private recipePath = '/recipes';
-  //private uploads: FirebaseListObservable<GalleryRecipe[]>;
 
   constructor(private ngFire: AngularFireModule, private db: AngularFireDatabase, private router:Router) { }
 
@@ -35,7 +34,6 @@ export class UploadService {
         (snapshot) => {
           // upload in progress
           recipe.progress = (uploadTask.snapshot.bytesTransferred / uploadTask.snapshot.totalBytes) * 100;
-          //console.log(upload.progress);
         },
         // 2.) error observer
         (error) => {
@@ -52,55 +50,21 @@ export class UploadService {
               this.saveRecipeData(recipe);
             }
           });
-          
-          
-          //this.router.navigate(['gallery']);
         }
       );
-
-
+      
     });
+    //this.router.navigate(['']);
   }
-
-  // uploadFile(upload: Upload) {
-  //   const storageRef = firebase.storage().ref();
-  //   const uploadTask = storageRef.child(`${this.basePath}/${upload.file.name}`)
-  //     .put(upload.file);
-
-  //   uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED,
-  //     // three observers
-  //     // 1.) state_changed observer
-  //     (snapshot) => {
-  //       // upload in progress
-  //       upload.progress = (uploadTask.snapshot.bytesTransferred / uploadTask.snapshot.totalBytes) * 100;
-  //       //console.log(upload.progress);
-  //     },
-  //     // 2.) error observer
-  //     (error) => {
-  //       // upload failed
-  //       console.log(error);
-  //     },
-  //     // 3.) success observer
-  //     (): any => {
-  //       upload.url = uploadTask.snapshot.downloadURL;
-  //       upload.name = upload.file.name;
-  //       this.saveFileData(upload);
-  //       this.router.navigate(['gallery']);
-  //     }
-  //   );
-  // }
-
-  // private saveImageData(file:File){
-  //   this.db.list(`${this.imagesPath}/`).push(file);
-  // }
 
   private saveFileData(upload: Upload) {
     const newRef = this.db.list(`${this.imagesPath}/`).push(upload);
     return newRef;
-    //console.log('File saved!: ' + upload.url);
   }
 
   private saveRecipeData(recipe: Recipe){
-    this.db.list(`${this.recipePath}/`).push(recipe);
+    this.db.list(`${this.recipePath}/`).push(recipe).then(()=>{
+      this.router.navigate(['']);
+    })
   }
 }

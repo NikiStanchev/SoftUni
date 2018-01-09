@@ -16,7 +16,6 @@ import { Router } from '@angular/router';
 export class UploadComponent {
 
   files: FileList;
-  //upload: Upload;
   recipe: Recipe;
   recipeName:string;
   recipeDescriptionFirst:string;
@@ -25,8 +24,6 @@ export class UploadComponent {
   recipeTypes = ['Breakfast', 'Dessert', 'Drink'];
   recipeType: string = 'Breakfast';
   timeToMake: string;
-  hours:number;
-  minutes:number;
   products:string;
 
   constructor(private recipeService: RecipeService, private uploadService: UploadService, private router:Router) { }
@@ -47,25 +44,10 @@ export class UploadComponent {
     this.recipe.recipeDescriptionSecond = this.recipeDescriptionSecond;
     this.recipe.recipeDescriptionThird = this.recipeDescriptionThird;
     this.recipe.recipeType = this.recipeType;
-    this.recipe.timeToMake = String(this.hours) + ' : ' + String(this.minutes);
+    this.recipe.timeToMake = this.timeToMake;
     this.recipe.products = this.products;
     this.recipe.createdBy = this.recipeService.getEmail();
-
-    //console.log(this.recipe);
-
     this.uploadService.uploadFile(filesToUpload, this.recipe);
 
-    // Save multiple images
-    // const filesIdx = _.range(filesToUpload.length); // Arr of numbers
-    // _.each(filesIdx, (idx) => {
-    //   //console.log(filesToUpload[idx]);
-    //   //this.upload = new Upload(filesToUpload[idx]);
-    //   this.uploadService.uploadFile(filesToUpload, this.recipe);
-    // });
-
-    // Save single image
-    //this.upload = new Upload(filesToUpload[0]);
-    //this.upload.recipeName = this.recipeName;
-    //this.uploadService.uploadFile(this.upload, this.recipe);
   }
 }

@@ -8,7 +8,7 @@ import { UploadComponent } from './app/components/upload/upload.component';
 import { AuthenticationGuard } from './app/services/authenticationGuard.service';
 
 export const appRoutes: Routes = [
-    { path: 'gallery', component: GalleryComponent, canActivate: [AuthenticationGuard]},
+    { path: 'gallery', component: GalleryComponent},
     { path: 'upload', component: UploadComponent, canActivate: [AuthenticationGuard]},
     { path: 'recipe/:id', component: RecipeDetailsComponent, canActivate: [AuthenticationGuard]},
     { path: 'recipe-edit/:id', component: RecipeEditComponent, canActivate: [AuthenticationGuard]},

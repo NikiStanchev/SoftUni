@@ -1,37 +1,38 @@
 <div class="row">
   <div class=col-md-12>
     <div class="recipe-container">
-      <p>{{recipeDate | dateFormat}}</p>
-      <h2>{{recipeName}}</h2>
-      <h4>{{recipeType}}</h4>
+        <h4 class="jumbotron-heading">{{recipeDate | dateFormat}}</h4>
+        <h3 class="jumbotron-heading">{{recipeType}}</h3>
+      <h1 class="jumbotron-heading">{{recipeName}}</h1>
+      
       <img class="recipe-img" src="{{firstImg}}">
-      <p>{{recipeTime}} Hours</p>
-      <p>
+      <p class="lead text-muted">{{recipeTime}} Hours</p>
+      <p class="lead text-muted">
          {{recipeProducts}}
       </p>
       <img class="recipe-img" src="{{secondImg}}" alt="">
       
-      <p>
+      <p class="lead text-muted">
         {{recipeDescriptionFirst}}
       </p>
       <img class="recipe-img" src="{{thirdImg}}" alt="">
-      <p>
+      <p class="lead text-muted">
         {{recipeDescriptionSecond}}
       </p>
-      <ul *ngFor="let im of recipeImages">
+      <div *ngFor="let im of recipeImages">
         <img class="recipe-img" src="{{im}}">
-      </ul>
-      <p>
+      </div>
+      <p class="lead text-muted">
         {{recipeDescriptionThird}}
       </p>
-      <p>Created by:  {{createdBy | createdBy}}</p>
-      <br>
-      <button>LIKE</button>
-      <a [routerLink]="['/recipe-edit', recipeId]" > 
-        EDIT
-      </a>
-      <button (click)="deleteRec()">DELETE</button>
+      <p class="lead text-muted">Created by:  {{createdBy | createdBy}}</p>
+      <div class="buttons">
+          <button type="button" class="btn btn-info">LIKE</button>
+          <a class="btn btn-warning" *ngIf="isAuthor" [routerLink]="['/recipe-edit', recipeId]" > 
+            EDIT
+          </a>
+          <button *ngIf="isAuthor" class="btn btn-danger" (click)="deleteRec()">DELETE</button>
+      </div>
     </div>
-    <!-- <img src="{{recipeUrl}}" class="img-container"> -->
   </div>
 </div>

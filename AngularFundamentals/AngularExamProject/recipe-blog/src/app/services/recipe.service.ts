@@ -22,18 +22,8 @@ export class RecipeService {
       if(auth !== undefined && auth !== null){
         this.uid = auth.uid;
       }
-    })
+    });
    }
-
-  //  getRecipes(): Observable<GalleryRecipe[]>{
-
-  //   this.items = this.db.list('recipes');
-  //   let database = firebase.database();
-  //   const data = this.db.list('images');
-
-  //   return this.items;
-  //   //return data;
-  //  }
 
   getRecipes(){
     return firebase.database().ref('recipes').once('value')
@@ -57,29 +47,30 @@ export class RecipeService {
   deleteRecipe(name:string, key:string){
     const storageRef = firebase.storage().ref();
     this.deleteRecipeImages(name, key);
-    this.delRecipe(key);
-    this.router.navigate(['gallery']);
-    
   }
 
   deleteRecipeImages(name:string, key:string){
     const storageRef = firebase.storage().ref();
     (this.getRecipe(key).then(r=>{
-      console.log(r)
       for(let imgKey of r.imageKeys){
         this.getImage(imgKey).then(i=>{
           storageRef.child(`images/${name}/${i.name}`).delete();
           this.db.list(`images/${imgKey}`).remove();
-          console.log(imgKey)
-          console.log(i.name)
-          console.log(name)
-          console.log(key)
         })
       }
-    }));
+    })).then(()=>{
+      this.delRecipe(key);
+      this.router.navigate(['gallery']);
+    })
   }
 
   delRecipe(key:string){
     this.db.list(`recipes/${key}`).remove();
+  }
+
+  editRecipe(key:string, obj:Object){
+    firebase.database().ref(`recipes/${key}`).update(obj).then(()=>{
+      this.router.navigate(['gallery']);
+    })
   }
 }

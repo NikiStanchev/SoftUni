@@ -1,4 +1,5 @@
 import { Component, OnInit, OnChanges } from '@angular/core';
+import { AngularFireAuth } from 'angularfire2/auth';
 import { RecipeService } from '../../services/recipe.service';
 import { ActivatedRoute } from '@angular/router';
 import { GalleryRecipe } from '../../models/galleryRecipe.model';
@@ -11,6 +12,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class RecipeDetailsComponent implements OnInit {
 
+  private activUser:string;
   private recipeId:string;
   private firstImg:string;
   private secondImg:string;
@@ -26,10 +28,15 @@ export class RecipeDetailsComponent implements OnInit {
   private createdBy:string;
   private recipeTime:string;
 
-
+  private isAuthor:boolean = false;
 
   constructor(private recipeService: RecipeService,
-    private route: ActivatedRoute) { }
+    private route: ActivatedRoute, 
+    private afAuth: AngularFireAuth) {
+      this.afAuth.authState.subscribe(auth => {
+        this.activUser = auth.email;
+      });
+     }
 
   getRecipeUrl(key: string) {
     this.recipeService.getRecipe(key).then(rec=>{
@@ -44,7 +51,9 @@ export class RecipeDetailsComponent implements OnInit {
       this.createdBy = rec.createdBy;
       this.recipeTime = rec.timeToMake;
       this.recipeId = this.route.snapshot.params['id'];
-      //console.log(this.route.snapshot.params['id'])
+      if(this.activUser === this.createdBy || this.activUser === 'admin@abv.bg'){
+        this.isAuthor = true;
+      }
       for(let key in rec.imageKeys){
         this.recipeService.getImage(rec.imageKeys[key]).then(img=>{
           if(Number(key) === 0){
@@ -61,23 +70,16 @@ export class RecipeDetailsComponent implements OnInit {
           }
         });
       }
-
-      // this.recipeService.getImage(rec['imageKeys'][0]).then(el=>{
-      //   this.recipeUrl = el.url
-      // })
-    })
-    // this.recipeService.getRecipe(key)
-    //   .then(recipe => this.recipeUrl = recipe.url)
-    //   .then(() => console.log(this.recipeUrl));
+    });
   }
 
   ngOnInit() {
-    //console.log(this.route.snapshot.params['id'])
-    this.getRecipeUrl(this.route.snapshot.params['id']);
-    
+    this.getRecipeUrl(this.route.snapshot.params['id']);   
+
   }
 
   deleteRec(){
     this.recipeService.deleteRecipe(this.recipeName, this.route.snapshot.params['id']);
   }
+
 }

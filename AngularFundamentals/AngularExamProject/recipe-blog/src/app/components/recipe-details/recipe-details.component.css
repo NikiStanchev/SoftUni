@@ -8,19 +8,31 @@
 }
 
 .recipe-img{
-    max-width: 60%;
-    margin:5% 5% 5% 5%;
+    width: 60%;
+    
+    /* margin:5% 5% 5% 19%; */
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .recipe-container p{
-    margin-left: 5%;
-    margin-right: 20%;
+    text-align: center;
 }
 
-.recipe-container h2{
-    margin-left: 5%;
+.recipe-container h1{
+    text-align: center;
+}
+
+.recipe-container h3{
+    text-align: center;
 }
 
 .recipe-container h4{
-    margin-left: 5%;
+    text-align: center;
 }
+
+.buttons{
+    text-align: center;
+}
+

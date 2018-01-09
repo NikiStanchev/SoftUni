@@ -4,47 +4,18 @@
         <div class="progress-bar progress-bar-animated" 
         [ngStyle]="{ 'width': recipe?.progress + '%' }"></div>
       </div>
-      <!-- Progress: {{upload?.progress}}% Complete -->
     </div>
     <div class="container">
       <form #uploadForm="ngForm">
-          <h2 class="heading">Upload New Recipe</h2>
-          {{recipe?.progress}}
-          <div class="form-group">
-            <label>Recipe Name</label>
-            <input class="form-control"  
-              placeholder="Recipe Name" 
-              [(ngModel)]="recipeName" 
-              name="recipeName" maxlength="70" required>
-          </div>
-          <div class="form-group">
-            <label>Recipe Type</label>
-            <select class="form-control" (change)="selectChangeHandler($event)">
-              <option *ngFor="let recipeType of recipeTypes">
-                {{recipeType}}
-              </option>
-            </select>
-          </div>
-          <label>Time</label>
+          <h2 class="heading">Edit Recipe</h2>
           <div class="time">
-          <div class="form-group">
-            <input class="form-control" 
-              style="width:49%" 
-              type="number"
-              placeholder="Hours" 
-              [(ngModel)]="hours" 
-              min="0" 
-              max="12"
-              name="recipeName" required>
-            <input class="form-control"
-              style="width:49%" 
-              type="number"
-              placeholder="Minutes" 
-              [(ngModel)]="minutes" 
-              min="0" 
-              max="59"
-              name="recipeName" required>
-          </div>
+            <div class="form-group">
+              <label>Time</label>
+              <input class="form-control"  
+                placeholder="timeToMake" 
+                [(ngModel)]="timeToMake" 
+                name="timeToMake" maxlength="50" required>
+            </div>
         </div>
         <br/>
           <div class="form-group">
@@ -62,7 +33,7 @@
                 type="text"
                 placeholder="Recipe Description" 
                 [(ngModel)]="recipeDescriptionFirst" 
-                name="recipeDescription" required>
+                name="recipeDescriptionFirst" required>
                 </textarea>
           </div>
           <div class="form-group">
@@ -71,7 +42,7 @@
                 type="text"
                 placeholder="Recipe Description" 
                 [(ngModel)]="recipeDescriptionSecond" 
-                name="recipeDescription" required>
+                name="recipeDescriptionSecond" required>
                 </textarea>
           </div>
           <div class="form-group">
@@ -80,12 +51,11 @@
                 type="text"
                 placeholder="Recipe Description" 
                 [(ngModel)]="recipeDescriptionThird" 
-                name="recipeDescription" required>
+                name="recipeDescriptionThird" required>
                 </textarea>
           </div>
-      <input type="file" 
-      (change)="handleFiles($event)" multiple>
-            <button (click)="uploadFiles()">CLICK</button>
+          <button [disabled]="!uploadForm.form.valid" type="submit" class="btn btn-info btn-lg"
+          (click)="edit()">Upload Recipe</button>
       </form>
     </div>
   </div>
