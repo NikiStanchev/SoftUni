@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalSpanningTree", "MinimalSpanningTree\MinimalSpanningTree.csproj", "{AA503EB9-CDB2-4789-ADF7-54A26678CEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedComponentsPrim", "ConnectedComponentsPrim\ConnectedComponentsPrim.csproj", "{86B0FB2A-2DBE-498F-82CF-E4D6B0B81739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA503EB9-CDB2-4789-ADF7-54A26678CEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA503EB9-CDB2-4789-ADF7-54A26678CEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA503EB9-CDB2-4789-ADF7-54A26678CEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA503EB9-CDB2-4789-ADF7-54A26678CEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B0FB2A-2DBE-498F-82CF-E4D6B0B81739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B0FB2A-2DBE-498F-82CF-E4D6B0B81739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B0FB2A-2DBE-498F-82CF-E4D6B0B81739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B0FB2A-2DBE-498F-82CF-E4D6B0B81739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63775FE6-E897-4C0C-BB5D-C776DE8D6328}
+	EndGlobalSection
+EndGlobal
